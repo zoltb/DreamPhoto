@@ -6,12 +6,22 @@ import {GalleryComponent} from './gallery/gallery.component';
 
 const routes: Routes = [
   {
-    path: 'rolam',
+    path: 'elerhetosegeim',
+    component: GalleryComponent
+
+  },
+  {
+    path: 'bemutatkozas',
     component: AboutComponent
 
   },
   {
-    path: 'kepek',
+    path: 'kepek/ingatlanok',
+    component: GalleryComponent
+
+  },
+  {
+    path: 'kepek/ingatlanok',
     component: GalleryComponent
 
   },
