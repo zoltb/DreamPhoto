@@ -1,0 +1,26 @@
+<div class="container" style="box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.15); padding: 0px">
+  <ngx-slick-carousel class="carousel" style=""
+                    #slickModal="slick-carousel"
+                    [config]="slideConfig"
+                    (init)="slickInit($event)"
+                    (breakpoint)="breakpoint($event)"
+                    (afterChange)="afterChange($event)"
+                    (beforeChange)="beforeChange($event)">
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img   src="{{ slide.img }}" alt="" width="100%">
+  </div>
+</ngx-slick-carousel>
+</div>
+<!--<button style="background-color: black" class="btn-next prev-slide" (click)="prev()"><i class="fas fa-caret-left fa-3x"></i></button>-->
+<!--<button (click)="slickPlay()">hi</button>-->
+
+
+<div style="margin: 70px 10% 30px 10%">
+  <div>
+    <div style="border-bottom-style: solid"></div>
+    <div class="grid-container">
+      <app-main></app-main>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,41 @@
+/*.about {*/
+
+  /*display: block;*/
+  /*position: relative;*/
+/*}*/
+
+/*.about::after {*/
+  /*content: "";*/
+  /*background: url(../../../assets/images/IMG_4578.jpg);*/
+  /*opacity: 0.5;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*position: absolute;*/
+  /*z-index: -1;*/
+  /*box-shadow: 0 0 8px 8px white inset;*/
+/*}*/
+.grid-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 40% auto auto 40%;
+  /*grid-template-columns: 40% auto 40%;*/
+  /*background-color: red;*/
+}
+
+.vl {
+  border-left: 1px solid #000;
+  height: 500px;
+  left: 50%;
+}
+
+body {
+  /*background-image: url(../../../assets/images/IMG_4578.jpg) !important;*/
+
+}
+
+.about{
+  font-family: "Kalam";
+
+}

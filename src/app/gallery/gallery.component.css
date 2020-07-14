@@ -1,0 +1,17 @@
+.gallery img:hover {
+  opacity: 0.4;
+  background-color: #dfe0e1;
+  box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.gallery img {
+  transition: 1.3s;
+  transition-delay: .1s;
+
+}
+
+.tipus {
+  /*width: 0vw;*/
+  /*position: absolute;*/
+
+}
