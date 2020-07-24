@@ -1,55 +1,37 @@
-  <nav class="header1 navbar navbar-expand-lg navbar-light shadow rounded" style="">
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <div class="container">
-        <div class="nav-item active align-self-end col" >
+<nav class="header1 navbar navbar-expand-lg navbar-light shadow rounded" style="">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="container">
+      <div class="nav-item active align-self-end col" id="mainPageImage">
       <span class="navbar-text circle">
       <a routerLink="">
       <img width="400" src="../../assets/tothegith/IMG_6064.jpg"></a>
       </span>
-        </div>
-        <!--<div class="container">-->
-          <ul class="navbar-nav container">
-            <!--<li class="nav-item align-self-end col">-->
-            <!--<a href="#">-->
-            <!--&lt;!&ndash;<div style="text-align: center; width: 50%; padding: 0px">&ndash;&gt;-->
-            <!--&lt;!&ndash;<img src="../../assets/camera.jfif">&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--</a>-->
-            <!--</li>-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Gallériák
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Ingatlanfotózás</a>
-                <a class="dropdown-item" href="#">Céges fotozás</a>
-                <a class="dropdown-item" href="#" tabindex="-1" aria-disabled="true">Egyéb</a>
-              </div>
-              <!--<a routerLink="/kepek" class="nav-link" href="#">-->
-
-              <!--</a>-->
-            </li>
-            <!--<li class="nav-item active align-self-end col" style="text-align: center">-->
-            <!--<span class="navbar-text circle">-->
-            <!--<a routerLink="">-->
-            <!--&lt;!&ndash;about page&ndash;&gt;-->
-            <!--<img width="400" src="../../assets/IMG_6064.jpg"></a>-->
-            <!--</span>-->
-            <!--</li>-->
-            <li class="nav-item">
-              <a routerLink="/elerhetosegeim" class="nav-link">Elérhetőségeim<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a routerLink="/bemutatkozas" class="nav-link">Bemutatkozás<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        <!--</div>-->
-
       </div>
+      <ul class="navbar-nav container">
+        <li class="nav-item dropdown" id="navbarGalleryDropdownMainMenuLink">
+          <a class="nav-link dropdown-toggle" href="#" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallériák</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Ingatlanfotózás</a>
+            <a class="dropdown-item" href="#">Céges fotozás</a>
+            <a class="dropdown-item" href="#" tabindex="-1" aria-disabled="true">Egyéb</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="/bemutatkozas" class="nav-link" id="navbarAboutbanMainMenuLink">Bemutatkozás<span
+            class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/elerhetosegeim" class="nav-link">Elérhetőségeim<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <!--</div>-->
 
     </div>
-  </nav>
+
+  </div>
+</nav>
 
 
 <!--header2-->
@@ -57,44 +39,62 @@
   <nav class="header2 navbar navbar-expand-lg navbar-light shadow rounded sticky-top">
     <div class="collapse navbar-collapse">
       <!--<div class="container">-->
-        <ul class="navbar-nav" style="margin:0px 0px 0px 150px;">
-          <li class="nav-item dropdown align-self-end col" style="width: 80px">
-            <!--<a href="#">-->
-            <!--<div class="logo" style="text-align: center; width: 100%; padding: 0px">-->
-            <!--<img width="80" src="../../favicon.ico">-->
-            <!--</div>-->
-            <!--</a>-->
-          </li>
-          <li class="nav-item dropdown  align-self-end col">
+      <ul class="navbar-nav" style="margin:0px 0px 0px 150px;">
+        <li class="nav-item dropdown align-self-end col" style="width: 80px">
+        </li>
+        <li class="nav-item dropdown  align-self-end col">
 
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-               aria-expanded="false">
-              Galléria
-            </a>
-            <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-              <!--<a class="dropdown-item" href="#">Lakások</a>-->
-              <!--<a class="dropdown-item" href="#">Házak</a>-->
-              <!--<div class="dropdown-divider"></div>-->
-              <!--<a class="dropdown-item" href="#">Egyéb</a>-->
-            <!--</div>-->
-          </li>
-          <li class="nav-item align-self-end col" style="text-align: center">
-            <a href="#">
-              <div class="logo" style="text-align: center; padding-left: 200px; padding-right: 130px">
-                <img width="40" src="../../favicon.ico">
-              </div>
-            </a>
-          </li>
-          <li class="nav-item align-self-end col">
-            <a class="nav-link" href="#">Kapcsolat</a>
-          </li>
-          <li class="nav-item align-self-end col">
-            <a class="nav-link" href="#">Rólam<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      <!--</div>-->
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">
+            Galléria
+          </a>
 
+        </li>
+        <li class="nav-item align-self-end col" style="text-align: center">
+          <a href="#">
+            <div class="logo" style="text-align: center; padding-left: 200px; padding-right: 130px">
+              <img width="40" src="../../favicon.ico">
+            </div>
+          </a>
+        </li>
+        <li class="nav-item align-self-end col">
+          <a class="nav-link" href="#">Kapcsolat</a>
+        </li>
+        <li class="nav-item align-self-end col">
+          <a class="nav-link" href="#">Rólam<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
     </div>
   </nav>
 </div>
 
+
+<div *ngIf="headerShrink">
+  <h3> UUU</h3>
+  <nav class="header3 navbar container navbar-light shadow rounded" style="">
+    <ul class="navbar-nav">
+
+      <li class="nav-item dropdown  align-self-end col">
+
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          Galléria
+        </a>
+
+      </li>
+      <li class="nav-item align-self-end col" style="text-align: center">
+        <a href="#">
+          <div class="logo" style="text-align: center; padding-left: 200px; padding-right: 130px">
+            <img width="40" src="../../favicon.ico">
+          </div>
+        </a>
+      </li>
+      <li class="nav-item align-self-end col">
+        <a class="nav-link" href="#">Kapcsolat</a>
+      </li>
+      <li class="nav-item align-self-end col">
+        <a class="nav-link" href="#">Rólam<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </nav>
+</div>
