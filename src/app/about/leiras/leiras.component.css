@@ -39,3 +39,8 @@ body {
   font-family: "Kalam";
 
 }
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}

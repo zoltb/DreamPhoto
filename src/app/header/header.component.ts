@@ -7,37 +7,38 @@ import {Component, HostListener} from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  cssStringVar = 'header1';
 
-  public headerScrolled = false;
-  public headerShrink = false;
+  private headerScrolled = false;
+  private headerNarrowed = false;
+  private yScrollPXLimit = 289;
+  private xWidthPXLimit = 992;
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
-    // const componentPosition = this.el.nativeElement.offsetTop;
-    // console.log(componentPosition);
     const pageYOffset = window.pageYOffset;
 
-    if (pageYOffset > 330) {
+    if (pageYOffset > this.yScrollPXLimit && !this.headerNarrowed) {
       this.headerScrolled = true;
-      this.cssStringVar = 'header2';
     }
-    else if (this.headerScrolled && pageYOffset < 600) {
+    else if (this.headerScrolled && pageYOffset <= this.yScrollPXLimit || this.headerNarrowed) {
       this.headerScrolled = false;
-      this.cssStringVar = 'header1';
     }
 
   }
 
   @HostListener('window:resize', ['$event'])
   onResize() {
-    const pageSize= window.innerWidth;
-    console.log(innerWidth)
-    if (pageSize < 992){
-      this.cssStringVar = 'header3';
-      this.headerShrink=true;
+    const pageSize = window.innerWidth;
 
+    if (pageSize < this.xWidthPXLimit) {
+      this.headerNarrowed = true;
+
+    } else if (this.headerNarrowed && pageSize >= this.xWidthPXLimit) {
+
+      this.headerNarrowed = false;
     }
   }
+
+
 
 
 }

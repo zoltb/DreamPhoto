@@ -1,19 +1,4 @@
 
-#mainPageImage {
-  margin-bottom: -2.4%;
-}
-
-#navbarGalleryDropdownMainMenuLink {
-  margin-left: 10%;
-}
-
-#navbarAboutMainMenuLink {
-  margin-left: 10%;
-}
-
-#navbarAboutbanMainMenuLink {
-  margin-left: 5.2%;
-}
 
 ul {
   margin: 0px 0px 0px 0px;
@@ -21,43 +6,33 @@ ul {
   text-align: center;
   display: flex;
   justify-content: center;
+
   /*flex-wrap: wrap;*/
 }
 
 li {
   margin: 0px 9%;
   /*display: inline-block;*/
+
   float: outside;
   vertical-align: top;
 }
 
 a {
   display: block;
-  /*padding: 10px;*/
 }
 
-/* Style the header with a grey background and some padding */
-
-.header1 {
+@media only screen and (min-width: 992px) {
+.headerTop {
   text-align: center;
   background-color: #e6e7e8;
-  /*box-shadow: -5px -5px 5px 5px #888;*/
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-  /*!*background-color: #fff;*!*/
-  /*border-bottom: black;*/
+}
 }
 
-@media screen and (max-width: 992px) {
-  .header1 {
-    margin: 0px !important;
-    /*text-align: center;*/
-    /*float: left;*/
-    /*margin-left: 15px;*/
-    /*background-color: #e6e7e8;*/
-    /*box-shadow: -5px -5px 5px 5px #888;*/
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-    /*!*background-color: #fff;*!*/
-    /*border-bottom: black;*/
+@media only screen and (max-width: 991px) {
+  .headerTop {
+  display: none;
   }
 }
 
@@ -96,14 +71,13 @@ a {
 /*}*/
 
 /*!* Float the link section to the right *!*/
-.header1-left {
+.headerTop-left {
   float: right;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 /* header 2*/
 
-/* Style the header with a grey background and some padding */
 
 @keyframes slideIn {
   0% {
@@ -111,10 +85,11 @@ a {
   }
 }
 
-.header2 {
+.headerScroll {
 
   animation: 1s ease-in-out 0s 1 slideIn;
   top: 0;
+  text-align: center;
   z-index: 99998;
   opacity: 0.9;
   position: fixed;
@@ -122,15 +97,14 @@ a {
   overflow: hidden;
   display: grid;
   background-color: #e6e7e8;
-  /*box-shadow: -5px -5px 5px 5px #888;*/
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
-.circle {
-  /*filter: grayscale(100%);*/
+.headerNarrow {
 
-  /*border-radius: 50%;*/
-  /*display: inline-block;*/
+}
+
+.circle {
   position: relative;
 }
 
@@ -146,9 +120,7 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  /*background: radial-gradient(ellipse at center, rgba(255,255,255,0) 5%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);*/
-
-  box-shadow: inset 0px 0px 24px 40px #e6e7e8, inset 0px 24px 40px 10px #e6e7e8, inset -2px -1px 40px 0px #e6e7e8, inset -20px 10px 40px 0px #e6e7e8;
+    box-shadow: inset 0px 0px 24px 40px #e6e7e8, inset 0px 24px 40px 10px #e6e7e8, inset -2px -1px 40px 0px #e6e7e8, inset -20px 10px 40px 0px #e6e7e8;
   border-radius: 54%;
   position: absolute;
   top: 0;
@@ -156,10 +128,38 @@ a {
 }
 
 * {
-  font-family: "Kalam";
+  font-family: "Kalam", Roboto, Arial;
   font-weight: bolder;
   font-size: 105%;
   color: black
 }
+
+
+
+#mainPageImage {
+  margin-bottom: -2.4%;
+}
+
+#navbarGalleryDropdownMainMenuLink {
+  margin-left: 10%;
+}
+
+#navbarAboutMainMenuLink {
+  margin-left: 10%;
+}
+
+#navbarAboutbanMainMenuLink {
+  margin-left: 5.2%;
+}
+
+#stickyDropdownMenu {
+
+}
+#inStickyDropdownMenu a {
+
+  /*display: flex;*/
+  /*position: fixed;*/
+}
+
 
 
