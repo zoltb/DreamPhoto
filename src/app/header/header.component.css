@@ -13,20 +13,26 @@ ul {
 li {
   margin: 0px 9%;
   /*display: inline-block;*/
-
   float: outside;
   vertical-align: top;
 }
 
-a {
-  display: block;
+li a[role=button] {
+  position: relative;
+  transition: .5s;
+  border-radius:20px;
+  float: left;
+}
+
+li a[role=button]:hover {
+  box-shadow: 0 0 11px rgba(105, 105, 105, 0.2);
+  background-color: rgba(178, 178, 178, 0.2);
 }
 
 @media only screen and (min-width: 992px) {
 .headerTop {
   text-align: center;
   background-color: #e6e7e8;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 }
 
@@ -36,48 +42,9 @@ a {
   }
 }
 
-/*!* Style the header links *!*/
-/*.header1 a {*/
-/*float: left;*/
-/*padding: 20px 12px 12px 0px;*/
-/*text-decoration: none;*/
-/*line-height: 25px;*/
-/*border-radius: 4px;*/
-/*text-transform: uppercase;*/
-/*letter-spacing: 1px;*/
-/*font-weight: 600;*/
-/*font-style: normal;*/
-/*color: #2b2b2b;*/
-/*font-size: 0.9375rem;*/
-/*}*/
-
-/*!* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger *!*/
-/*.header1 a.logo {*/
-/*border-bottom-right-radius: 60px 90px;*/
-/*font-size: 25px;*/
-/*font-weight: bold;*/
-/*}*/
-
-/*!* Change the background color on mouse-over *!*/
-/*.header1 a:hover {*/
-/*font-color: #ddd;*/
-/*color: #64a8d1;*/
-/*}*/
-
-/*!* Style the active/current link*!*/
-/*.header1 a.active {*/
-/*background-color: dodgerblue;*/
-/*color: white;*/
-/*}*/
-
-/*!* Float the link section to the right *!*/
 .headerTop-left {
   float: right;
 }
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-/* header 2*/
-
 
 @keyframes slideIn {
   0% {
@@ -137,18 +104,32 @@ a {
 
 
 #mainPageImage {
-  margin-bottom: -2.4%;
+  margin-bottom: -2%;
 }
 
 #navbarGalleryDropdownMainMenuLink {
   margin-left: 10%;
+  cursor: pointer;
 }
+.dropdown-divider {
+  margin: 0px;
+}
+
+
+
+#navbarGalleryDropdownMainMenuLink div a {
+  font-size: 95%;
+  font-weight: normal;
+  /*padding: 10px 5px;*/
+
+}
+
+#navbarGalleryDropdownMainMenuLink .dropdown-menu {
+  padding: 0px;
+}
+
 
 #navbarAboutMainMenuLink {
-  margin-left: 10%;
-}
-
-#navbarAboutbanMainMenuLink {
   margin-left: 5.2%;
 }
 
