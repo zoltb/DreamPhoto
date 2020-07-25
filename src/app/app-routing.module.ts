@@ -2,12 +2,13 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {MainPageComponent} from './main-page/main-page.component';
 import {AboutComponent} from './about/about.component';
-import {GalleryComponent} from './gallery/gallery.component';
+import {GalleryIngatlanokComponent} from './gallery-page/gallery-ingatlanok/gallery-ingatlanok.component';
+import {GalleryPageComponent} from './gallery-page/gallery-page.component';
 
 const routes: Routes = [
   {
     path: 'elerhetosegeim',
-    component: GalleryComponent
+    component: AboutComponent
 
   },
   {
@@ -15,16 +16,18 @@ const routes: Routes = [
     component: AboutComponent
 
   },
+
+  {
+    path: 'kepek',
+    component: GalleryPageComponent
+  },
+
   {
     path: 'kepek/ingatlanok',
-    component: GalleryComponent
+    component: GalleryIngatlanokComponent
 
   },
-  {
-    path: 'kepek/ingatlanok',
-    component: GalleryComponent
 
-  },
   {
     path: '',
     component: MainPageComponent

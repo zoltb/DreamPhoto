@@ -7,13 +7,14 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ContactComponent } from './contact/contact.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryIngatlanokComponent } from './gallery-page/gallery-ingatlanok/gallery-ingatlanok.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SlickCarouselModule} from 'ngx-slick-carousel';
 import { MainComponent } from './main-page/main/main.component';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {LeirasComponent} from './about/leiras/leiras.component';
-import {KepekComponent} from './gallery/kepek/kepek.component';
+import {KepekComponent} from './gallery-page/gallery-ingatlanok/kepek/kepek.component';
+import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 
 
 @NgModule({
@@ -23,10 +24,11 @@ import {KepekComponent} from './gallery/kepek/kepek.component';
     AboutComponent,
     MainPageComponent,
     ContactComponent,
-    GalleryComponent,
+    GalleryIngatlanokComponent,
     MainComponent,
     LeirasComponent,
-    KepekComponent
+    KepekComponent,
+    GalleryPageComponent
   ],
   imports: [
     BrowserModule,

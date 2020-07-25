@@ -3,11 +3,11 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css'],
+  templateUrl: './gallery-ingatlanok.component.html',
+  styleUrls: ['./gallery-ingatlanok.component.css'],
   // changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class GalleryComponent { }
+export class GalleryIngatlanokComponent { }
 
 
   // kepekSzoba;

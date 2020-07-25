@@ -1,20 +1,46 @@
+.styledTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 10px 0px 25px 0px
+}
+
+.styledTitle div {
+
+  padding-top: 30px;
+  border-bottom: 1px solid #000;
+
+}
+
+.profileImg {
+  text-align: center;
+  border-radius: 50%;
+  padding-bottom: 40px;
+}
+
+.profileImg img {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  opacity: 1.05;
+}
+
 /*.about {*/
 
-  /*display: block;*/
-  /*position: relative;*/
+/*display: block;*/
+/*position: relative;*/
 /*}*/
 
 /*.about::after {*/
-  /*content: "";*/
-  /*background: url(../../../assets/images/IMG_4578.jpg);*/
-  /*opacity: 0.5;*/
-  /*top: 0;*/
-  /*left: 0;*/
-  /*bottom: 0;*/
-  /*right: 0;*/
-  /*position: absolute;*/
-  /*z-index: -1;*/
-  /*box-shadow: 0 0 8px 8px white inset;*/
+/*content: "";*/
+/*background: url(../../../assets/images/IMG_4578.jpg);*/
+/*opacity: 0.5;*/
+/*top: 0;*/
+/*left: 0;*/
+/*bottom: 0;*/
+/*right: 0;*/
+/*position: absolute;*/
+/*z-index: -1;*/
+/*box-shadow: 0 0 8px 8px white inset;*/
 /*}*/
 .grid-container {
   padding-top: 20px;
@@ -35,7 +61,7 @@ body {
 
 }
 
-.about{
+.about {
   font-family: "Kalam";
 
 }
