@@ -7,7 +7,7 @@ import {GalleryPageComponent} from './gallery-page/gallery-page.component';
 
 const routes: Routes = [
   {
-    path: 'elerhetosegeim',
+    path: 'kapcsolat',
     component: AboutComponent
 
   },

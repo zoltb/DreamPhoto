@@ -1,7 +1,7 @@
 
 
 ul {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 5% 0px 5%;
   padding: 0px;
   text-align: center;
   display: flex;
@@ -11,7 +11,7 @@ ul {
 }
 
 li {
-  margin: 0px 9%;
+  margin: 0px ;
   /*display: inline-block;*/
   float: outside;
   vertical-align: top;
@@ -107,7 +107,7 @@ li a[role=button]:hover {
 }
 
 #navbarGalleryDropdownMainMenuLink {
-  margin-left: 10%;
+  margin-left: 0%;
   cursor: pointer;
 }
 .dropdown-divider {
