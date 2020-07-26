@@ -107,7 +107,7 @@ li a[role=button]:hover {
 }
 
 #navbarGalleryDropdownMainMenuLink {
-  margin-left: 0%;
+  margin-left: 2%;
   cursor: pointer;
 }
 .dropdown-divider {

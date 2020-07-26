@@ -4,11 +4,19 @@ import {MainPageComponent} from './main-page/main-page.component';
 import {AboutComponent} from './about/about.component';
 import {GalleryIngatlanokComponent} from './gallery-page/gallery-ingatlanok/gallery-ingatlanok.component';
 import {GalleryPageComponent} from './gallery-page/gallery-page.component';
+import {ContactComponent} from './contact/contact.component';
 
 const routes: Routes = [
+
+  {
+    path: '',
+    component: MainPageComponent
+
+  },
+
   {
     path: 'kapcsolat',
-    component: AboutComponent
+    component: ContactComponent
 
   },
   {
