@@ -1,4 +1,4 @@
-import {Component, HostListener} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 
 
 @Component({
@@ -6,12 +6,20 @@ import {Component, HostListener} from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
 
   private headerScrolled = false;
   private headerNarrowed = false;
+
   private yScrollPXLimit = 289;
   private xWidthPXLimit = 992;
+
+  ngOnInit() {
+    if (window.innerWidth < 992){
+      this.headerNarrowed = true;
+    }
+  }
+
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
     const pageYOffset = window.pageYOffset;
@@ -37,8 +45,6 @@ export class HeaderComponent {
       this.headerNarrowed = false;
     }
   }
-
-
 
 
 }

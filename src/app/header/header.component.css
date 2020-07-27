@@ -1,6 +1,12 @@
+:root{
+  --custom-grey: e6e7e8
+}
 
+.navbar{
+  background-color: var(--custom-grey);
+}
 
-ul {
+.ul {
   margin: 0px 5% 0px 5%;
   padding: 0px;
   text-align: center;
@@ -32,7 +38,6 @@ li a[role=button]:hover {
 @media only screen and (min-width: 992px) {
 .headerTop {
   text-align: center;
-  background-color: #e6e7e8;
 }
 }
 
@@ -61,11 +66,16 @@ li a[role=button]:hover {
   position: fixed;
   width: 100%;
   overflow: hidden;
-  display: grid;
-  background-color: #e6e7e8;
+  /*display: grid;*/
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
+.headerScroll .container{
+  /*margin: 0 12% 0 12%;*/
+  /*margin-left: 19.1%;*/
+  /*display: flex;  align-items: center;*/
+  /*justify-content: space-between;*/
+}
 .headerNarrow {
 
 }
@@ -77,7 +87,7 @@ li a[role=button]:hover {
 .circle img {
   border-radius: 50%;
   display: block;
-  border: 1px solid #e6e7e8;
+  border: 1px solid var(--custom-grey);
   text-align: center;
 }
 
@@ -86,7 +96,7 @@ li a[role=button]:hover {
   display: block;
   width: 100%;
   height: 100%;
-    box-shadow: inset 0px 0px 24px 40px #e6e7e8, inset 0px 24px 40px 10px #e6e7e8, inset -2px -1px 40px 0px #e6e7e8, inset -20px 10px 40px 0px #e6e7e8;
+  box-shadow: inset 0px 0px 24px 40px var(--custom-grey), inset 0px 24px 40px 10px var(--custom-grey), inset -2px -1px 40px 0px var(--custom-grey), inset -20px 10px 40px 0px var(--custom-grey);
   border-radius: 54%;
   position: absolute;
   top: 0;
@@ -127,10 +137,24 @@ li a[role=button]:hover {
   padding: 0px;
 }
 
-
 #navbarAboutMainMenuLink {
   margin-left: 5.2%;
 }
+
+#navbarGalleryMiddleMenuLink div a {
+  font-size: 95%;
+  font-weight: normal;
+  /*padding: 10px 5px;*/
+
+}
+
+#navbarGalleryMiddleMenuLink {
+  margin-left: 11%;
+}
+#navbarAboutMiddleMenuLink {
+  margin-left: 15%;
+}
+
 
 #stickyDropdownMenu {
 
@@ -139,6 +163,21 @@ li a[role=button]:hover {
 
   /*display: flex;*/
   /*position: fixed;*/
+}
+
+@media only screen and (min-width: 576px) {
+  .photoIcon{
+    width: 18%;
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+  .photoIcon{
+    width: 14%;
+    /*height: 10px;*/
+    /*display: inline;*/
+  }
 }
 
 
