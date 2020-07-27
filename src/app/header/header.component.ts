@@ -10,12 +10,14 @@ export class HeaderComponent implements OnInit {
 
   private headerScrolled = false;
   private headerNarrowed = false;
+  private headerOnTop = true;
 
   private yScrollPXLimit = 289;
   private xWidthPXLimit = 992;
 
+
   ngOnInit() {
-    if (window.innerWidth < 992){
+    if (window.innerWidth < 992) {
       this.headerNarrowed = true;
     }
   }
@@ -24,6 +26,8 @@ export class HeaderComponent implements OnInit {
   onWindowScroll() {
     const pageYOffset = window.pageYOffset;
 
+    if (pageYOffset > 0) {
+    }
     if (pageYOffset > this.yScrollPXLimit && !this.headerNarrowed) {
       this.headerScrolled = true;
     }
@@ -39,10 +43,11 @@ export class HeaderComponent implements OnInit {
 
     if (pageSize < this.xWidthPXLimit) {
       this.headerNarrowed = true;
-
+      this.headerOnTop = false;
     } else if (this.headerNarrowed && pageSize >= this.xWidthPXLimit) {
 
       this.headerNarrowed = false;
+      this.headerOnTop = true;
     }
   }
 

@@ -1,3 +1,4 @@
+<div *ngIf="headerOnTop">
 <nav class="headerTop navbar navbar-expand-lg navbar-light shadow rounded">
   <div class="collapse navbar-collapse">
     <div class="container">
@@ -38,6 +39,7 @@
 
   </div>
 </nav>
+</div>
 
 
 <!--header2-->
@@ -73,7 +75,7 @@
 
 
 <div *ngIf="headerNarrowed">
-  <nav class="headerNarrow navbar navbar-expand navbar-light shadow rounded sticky-top" style="">
+  <nav class="headerNarrow navbar navbar-expand navbar-light shadow rounded" style="">
     <div class="collapse navbar-collapse">
       <div class="container">
         <ul class="navbar-nav container">
@@ -82,12 +84,6 @@
                 <img class="photoIcon" src="../../favicon.ico">
             </a>
           </li>
-          <!--<li class="nav-item align-self-end col">-->
-            <!--<a class="nav-link" href="#">Kapcsolat</a>-->
-          <!--</li>-->
-          <!--<li class="nav-item align-self-end col">-->
-            <!--<a class="nav-link" href="#">Rólam<span class="sr-only">(current)</span></a>-->
-          <!--</li>-->
         </ul>
       </div>
     </div>
