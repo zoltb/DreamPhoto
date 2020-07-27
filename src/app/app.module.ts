@@ -13,7 +13,7 @@ import {SlickCarouselModule} from 'ngx-slick-carousel';
 import { MainComponent } from './main-page/main/main.component';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {LeirasComponent} from './about/leiras/leiras.component';
-import {KepekComponent} from './gallery-page/gallery-ingatlanok/kepek/kepek.component';
+import {IngatlanKepekComponent} from './gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component';
 import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 
 
@@ -27,7 +27,7 @@ import { GalleryPageComponent } from './gallery-page/gallery-page.component';
     GalleryIngatlanokComponent,
     MainComponent,
     LeirasComponent,
-    KepekComponent,
+    IngatlanKepekComponent,
     GalleryPageComponent
   ],
   imports: [

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-kepek',
-  templateUrl: './kepek.component.html',
-  styleUrls: ['./kepek.component.css']
+  selector: 'app-ingatlan-kepek',
+  templateUrl: './ingatlan-kepek.component.html',
+  styleUrls: ['./ingatlan-kepek.component.css']
 })
-export class KepekComponent implements OnInit {
+export class IngatlanKepekComponent implements OnInit {
 
   kepek;
 

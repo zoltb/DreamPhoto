@@ -7,21 +7,9 @@
 .gallery img {
   transition: 1.3s;
   transition-delay: .1s;
-
 }
-
 
 .modal-dialog {
-  /*margin: 20px !important;*/
-  /*position: fixed; !*no scroll*!*/
   max-width: 1200px !important;
-
 }
 
-.w-100 {
-  /*width: 1200px !important;*/
-}
-
-.carousel-inner {
-  /*overflow: auto !important;*/
-}
