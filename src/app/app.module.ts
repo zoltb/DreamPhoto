@@ -15,6 +15,10 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {LeirasComponent} from './about/leiras/leiras.component';
 import {IngatlanKepekComponent} from './gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component';
 import { GalleryPageComponent } from './gallery-page/gallery-page.component';
+import { CegesKepekComponent } from './gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component';
+import { EgyebKepekComponent } from './gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component';
+import { GalleryCegesComponent } from './gallery-page/gallery-ceges/gallery-ceges.component';
+import { GalleryEgyebComponent } from './gallery-page/gallery-egyeb/gallery-egyeb.component';
 
 
 @NgModule({
@@ -28,7 +32,11 @@ import { GalleryPageComponent } from './gallery-page/gallery-page.component';
     MainComponent,
     LeirasComponent,
     IngatlanKepekComponent,
-    GalleryPageComponent
+    GalleryPageComponent,
+    CegesKepekComponent,
+    EgyebKepekComponent,
+    GalleryCegesComponent,
+    GalleryEgyebComponent
   ],
   imports: [
     BrowserModule,

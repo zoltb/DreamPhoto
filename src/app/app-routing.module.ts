@@ -5,6 +5,8 @@ import {AboutComponent} from './about/about.component';
 import {GalleryIngatlanokComponent} from './gallery-page/gallery-ingatlanok/gallery-ingatlanok.component';
 import {GalleryPageComponent} from './gallery-page/gallery-page.component';
 import {ContactComponent} from './contact/contact.component';
+import {EgyebKepekComponent} from './gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component';
+import {CegesKepekComponent} from './gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component';
 
 const routes: Routes = [
 
@@ -35,12 +37,17 @@ const routes: Routes = [
     component: GalleryIngatlanokComponent
 
   },
-
   {
-    path: '',
-    component: MainPageComponent
+    path: 'kepek/ceges',
+    component: CegesKepekComponent
 
-  }
+  },
+  {
+    path: 'kepek/egyeb',
+    component: EgyebKepekComponent
+
+  },
+
 ];
 
 @NgModule({
