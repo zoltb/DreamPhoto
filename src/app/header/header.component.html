@@ -23,7 +23,6 @@
             <a class="dropdown-item" routerLink="/kepek/egyeb">Egyéb témák</a>
           </div>
         </li>
-
         <li class="nav-item">
           <a routerLink="/bemutatkozas" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button"
              id="navbarAboutMainMenuLink">
@@ -41,8 +40,6 @@
 </nav>
 </div>
 
-
-<!--header2-->
 <div *ngIf="headerScrolled">
   <nav class="headerScroll navbar navbar-expand-lg navbar-light shadow rounded sticky-top">
     <div class="collapse navbar-collapse">
@@ -57,7 +54,6 @@
               Gallériák
             </a>
           </li>
-
           <li class="nav-item">
             <a routerLink="/bemutatkozas" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button"
                id="navbarAboutMiddleMenuLink">
@@ -73,18 +69,19 @@
   </nav>
 </div>
 
-
 <div *ngIf="headerNarrowed">
   <nav class="headerNarrow navbar navbar-expand navbar-light shadow rounded" style="">
     <div class="collapse navbar-collapse">
-      <div class="container">
-        <ul class="navbar-nav container">
-          <li class="nav-item align-self-end col" style="text-align: center">
-            <a href="#">
-                <img class="photoIcon" src="../../favicon.ico">
-            </a>
-          </li>
-        </ul>
+      <div class="container dropdown">
+          <a class="dropdown" data-toggle="dropdown" id="navbarNarrowDropdownMenuLink">
+              <img class="photoIcon" src="../../favicon.ico">
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNarrowDropdownMenuLink">
+              <a class="dropdown-item" routerLink="/kepek">Gallériák</a>
+              <a class="dropdown-item" routerLink="/bemutatkozas">Bemutatkozás</a>
+              <a class="dropdown-item" routerLink="/">Kezdőoldal</a>
+              <a class="dropdown-item" routerLink="/kapcsolat">Kapcsolat</a>
+            </div>
       </div>
     </div>
   </nav>

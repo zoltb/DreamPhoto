@@ -34,7 +34,6 @@ export class HeaderComponent implements OnInit {
     else if (this.headerScrolled && pageYOffset <= this.yScrollPXLimit || this.headerNarrowed) {
       this.headerScrolled = false;
     }
-
   }
 
   @HostListener('window:resize', ['$event'])
@@ -50,6 +49,4 @@ export class HeaderComponent implements OnInit {
       this.headerOnTop = true;
     }
   }
-
-
 }

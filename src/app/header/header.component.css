@@ -1,6 +1,5 @@
 
-
-.navbar{
+.navbar {
   background-color: #e6e7e8;
 }
 
@@ -15,7 +14,7 @@
 }
 
 li {
-  margin: 0px ;
+  margin: 0px;
   /*display: inline-block;*/
   float: outside;
   vertical-align: top;
@@ -24,7 +23,7 @@ li {
 li a[role=button] {
   position: relative;
   transition: .5s;
-  border-radius:20px;
+  border-radius: 20px;
   float: left;
 }
 
@@ -37,6 +36,7 @@ li a[role=button]:hover {
   text-align: center;
   background-color: #e6e7e8;
 }
+
 
 @keyframes slideIn {
   0% {
@@ -57,12 +57,13 @@ li a[role=button]:hover {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
-.headerScroll .container{
+.headerScroll .container {
   /*margin: 0 12% 0 12%;*/
   /*margin-left: 19.1%;*/
   /*display: flex;  align-items: center;*/
   /*justify-content: space-between;*/
 }
+
 .headerNarrow {
   z-index: 99998;
   opacity: 0.9;
@@ -70,16 +71,7 @@ li a[role=button]:hover {
   overflow: hidden;
   display: block;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-
 }
-
-/*.headerNarrow .sticky {*/
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*width: 100%*/
-/*}*/
-
-
 
 .circle {
   position: relative;
@@ -90,6 +82,7 @@ li a[role=button]:hover {
   display: block;
   border: 1px solid #e6e7e8;
   text-align: center;
+  width: 400px;
 }
 
 .circle:after {
@@ -111,8 +104,6 @@ li a[role=button]:hover {
   color: black
 }
 
-
-
 #mainPageImage {
   margin-bottom: -2%;
 }
@@ -121,11 +112,10 @@ li a[role=button]:hover {
   margin-left: 2%;
   cursor: pointer;
 }
+
 .dropdown-divider {
   margin: 0px;
 }
-
-
 
 #navbarGalleryDropdownMainMenuLink div a {
   font-size: 95%;
@@ -145,39 +135,47 @@ li a[role=button]:hover {
 #navbarGalleryMiddleMenuLink div a {
   font-size: 95%;
   font-weight: normal;
-  /*padding: 10px 5px;*/
-
 }
 
 #navbarGalleryMiddleMenuLink {
   margin-left: 11%;
 }
+
 #navbarAboutMiddleMenuLink {
   margin-left: 15%;
 }
 
-
-#stickyDropdownMenu {
-
+#navbarNarrowDropdownMenuLink {
+  margin: auto;
+  text-align: center;
 }
-#inStickyDropdownMenu a {
 
-  /*display: flex;*/
-  /*position: fixed;*/
+.headerNarrow .dropdown-menu.show{
+  margin: auto;
+  text-align: center;
+  display: contents;
+  width: 100%
+}
+
+.headerNarrow .dropdown-item:hover{
+  border-radius: 100%;
+  background-color: #dfe0e1;
+  transition: .5s;
+}
+.photoIcon {
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 576px) {
-  .photoIcon{
+  .photoIcon {
     width: 18%;
   }
 }
 
-
 @media only screen and (max-width: 575px) {
-  .photoIcon{
+  .photoIcon {
     width: 14%;
-    /*height: 10px;*/
-    /*display: inline;*/
   }
 }
 
