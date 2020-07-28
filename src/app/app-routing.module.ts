@@ -7,6 +7,8 @@ import {GalleryPageComponent} from './gallery-page/gallery-page.component';
 import {ContactComponent} from './contact/contact.component';
 import {EgyebKepekComponent} from './gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component';
 import {CegesKepekComponent} from './gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component';
+import {GalleryCegesComponent} from './gallery-page/gallery-ceges/gallery-ceges.component';
+import {GalleryEgyebComponent} from './gallery-page/gallery-egyeb/gallery-egyeb.component';
 
 const routes: Routes = [
 
@@ -39,12 +41,12 @@ const routes: Routes = [
   },
   {
     path: 'kepek/ceges',
-    component: CegesKepekComponent
+    component: GalleryCegesComponent
 
   },
   {
     path: 'kepek/egyeb',
-    component: EgyebKepekComponent
+    component: GalleryEgyebComponent
 
   },
 
