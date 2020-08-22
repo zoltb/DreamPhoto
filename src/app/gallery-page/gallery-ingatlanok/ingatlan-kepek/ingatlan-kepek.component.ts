@@ -34,6 +34,8 @@ export class IngatlanKepekComponent implements OnInit {
     //   {img: '../assets/ddd.jpg'},
     //   {img: '../assets/fff.jpg'},
     //   {img: '../assets/IMG_5835.jpg'},
+
+    // {img: '../assets/images/IMG_6088.jpg'},
     //   {img: '../assets/IMG_6095.jpg'},
     //   {img: '../assets/IMG_6166.jpg'},
     //   {img: '../assets/IMG_6168.jpg'},
