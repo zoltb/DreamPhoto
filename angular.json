@@ -32,7 +32,7 @@
 //              "node_modules/slick-carousel/slick/slick.min.js"
             ],
             "scripts": [
-              "src/headerScrollingHelper.js"
+
             ],
             "es5BrowserSupport": true
           },

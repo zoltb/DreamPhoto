@@ -19,6 +19,8 @@ img{
 
 }
 
-img:hover{
-  -webkit-filter: grayscale(1);
+img:hover {
+  opacity: 0.4;
+  background-color: #dfe0e1;
+  box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.15);
 }
