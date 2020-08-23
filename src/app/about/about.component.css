@@ -5,10 +5,7 @@
 }
 
 .bg-img #main-bg{
-  /*background-image: url("../../assets/images/seged/hatter.jpg");*/
-  /*background-repeat: repeat;*/
   position: absolute;
-  /*background-repeat: repeat-y;*/
   left: 0;
   top: 0;
   width: 100%;
@@ -17,8 +14,41 @@
   opacity: 0.13;
 }
 
+@media only screen and (max-width: 1460px) {
+  .bg-img #main-bg {
+    width: 126%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-img #main-bg {
+    width: 164%;
+  }
+  }
+
+
+@media only screen and (max-width: 992px) {
+  .bg-img #main-bg {
+    width: 340%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-img #main-bg {
+    width: 650%;
+  }
+}
+
+
+@media only screen and (max-width: 415px) {
+  .bg-img #main-bg {
+    width: 1040%;
+  }
+}
+
 .bg-img #secondary-bg{
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
