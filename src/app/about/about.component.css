@@ -1,7 +1,4 @@
-.styledDoubleLines {
-  margin: 20px 10% 30px 10%;
-  border-top-style: solid;
-}
+
 .bg-img{
   position: relative;
   overflow: hidden;
@@ -17,3 +14,20 @@
   opacity: 0.13;
 }
 
+
+.styledTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 10px 0px 10px 0px
+}
+
+/*.styledTitle div {*/
+  /*padding-top: 30px;*/
+  /*border-bottom: 1px solid #000;*/
+
+/*}*/
+
+.styledDoubleLines {
+  margin: 20px 10% 30px 10%;
+  border-top-style: solid;
+}
