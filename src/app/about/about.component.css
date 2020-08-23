@@ -4,7 +4,20 @@
   overflow: hidden;
 }
 
-.bg-img img{
+.bg-img #main-bg{
+  /*background-image: url("../../assets/images/seged/hatter.jpg");*/
+  /*background-repeat: repeat;*/
+  position: absolute;
+  /*background-repeat: repeat-y;*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  opacity: 0.13;
+}
+
+.bg-img #secondary-bg{
   position: absolute;
   left: 0;
   top: 0;
