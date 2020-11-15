@@ -6,12 +6,10 @@
 <div class="container" style="box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.15); padding: 0px">
   <ngx-slick-carousel class="carousel" style=""
                     #slickModal="slick-carousel"
-                    [config]="slideConfig"
-                    
-                    
+                    [config]="slideConfig"  
                     >
   <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-    <img   src="{{ slide.img }}" alt="" width="100%">
+    <img   src="{{ slide.img }}" alt="" width="100%" (load)="onImageLoad($event)">
   </div>
 </ngx-slick-carousel>
 </div>

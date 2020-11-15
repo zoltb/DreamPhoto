@@ -15,6 +15,13 @@ export class HeaderComponent implements OnInit {
   private yScrollPXLimit = 289;
   private xWidthPXLimit = 992;
 
+    flag = true;
+
+
+  onImageLoad(e){
+
+  this.flag = true
+}
 
   ngOnInit() {
     if (window.innerWidth < 992) {

@@ -28,4 +28,5 @@ export class MainPageComponent {
     focusOnSelect: true,
 
   };
+  
 }
