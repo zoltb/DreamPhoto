@@ -1,0 +1,27 @@
+<div class="container" (contextmenu)="__elementSelectionService.select('177150442',$event)" [ngStyle]="__elementSelectionService.getStyles('177150442')"(click)='__elementSelectionService.clear()'>
+  <div class="row gallery" (contextmenu)="__elementSelectionService.select('164759297',$event)" [ngStyle]="__elementSelectionService.getStyles('164759297')">
+    <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let slide of kepek; let i = index" data-toggle="modal" data-target="#modalKepek" (contextmenu)="__elementSelectionService.select('179944240',$event)" [ngStyle]="__elementSelectionService.getStyles('179944240')">
+      <a href="#lightbox" attr.data-slide-to="{{i}}" (contextmenu)="__elementSelectionService.select('740156133',$event)" [ngStyle]="__elementSelectionService.getStyles('740156133')"><img [src]="slide.img" class="img-thumbnail my-3" (contextmenu)="__elementSelectionService.select('1656573041',$event)" [ngStyle]="__elementSelectionService.getStyles('1656573041')"></a>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="modal fade" id="modalKepek" tabindex="-1" role="dialog" (contextmenu)="__elementSelectionService.select('306328910',$event)" [ngStyle]="__elementSelectionService.getStyles('306328910')"(click)='__elementSelectionService.clear()'>
+  <div class="modal-dialog modal-dialog-centered" role="document" (contextmenu)="__elementSelectionService.select('2068751656',$event)" [ngStyle]="__elementSelectionService.getStyles('2068751656')">
+    <div class="modal-content" (contextmenu)="__elementSelectionService.select('1021964618',$event)" [ngStyle]="__elementSelectionService.getStyles('1021964618')">
+      <div class="modal-body" (contextmenu)="__elementSelectionService.select('2132813560',$event)" [ngStyle]="__elementSelectionService.getStyles('2132813560')">
+        <div id="lightbox" class="carousel slide" data-ride="carousel" data-interval="5000" data-keyboard="true" (contextmenu)="__elementSelectionService.select('2004235177',$event)" [ngStyle]="__elementSelectionService.getStyles('2004235177')">
+          <div class="carousel-inner" (contextmenu)="__elementSelectionService.select('2032119690',$event)" [ngStyle]="__elementSelectionService.getStyles('2032119690')">
+            <div *ngFor="let slide of kepek; let i = index" [ngClass]="i == 0 ? 'carousel-item active' : 'carousel-item'" (contextmenu)="__elementSelectionService.select('177173058',$event)" [ngStyle]="__elementSelectionService.getStyles('177173058')">
+              <img [src]="slide.img" class="w-100" alt (contextmenu)="__elementSelectionService.select('1961263629',$event)" [ngStyle]="__elementSelectionService.getStyles('1961263629')">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#lightbox" role="button" data-slide="prev" (contextmenu)="__elementSelectionService.select('843783235',$event)" [ngStyle]="__elementSelectionService.getStyles('843783235')"><span class="carousel-control-prev-icon" aria-hidden="true" (contextmenu)="__elementSelectionService.select('908887679',$event)" [ngStyle]="__elementSelectionService.getStyles('908887679')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('1195442074',$event)" [ngStyle]="__elementSelectionService.getStyles('1195442074')">Previous</span></a>
+          <a class="carousel-control-next" href="#lightbox" role="button" data-slide="next" (contextmenu)="__elementSelectionService.select('133622677',$event)" [ngStyle]="__elementSelectionService.getStyles('133622677')"><span class="carousel-control-next-icon" aria-hidden="true" (contextmenu)="__elementSelectionService.select('1832207916',$event)" [ngStyle]="__elementSelectionService.getStyles('1832207916')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('1064839819',$event)" [ngStyle]="__elementSelectionService.getStyles('1064839819')">Next</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

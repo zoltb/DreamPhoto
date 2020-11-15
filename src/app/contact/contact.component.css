@@ -37,6 +37,11 @@
   /*height: 100%;*/
 /*}*/
 
+.bg-img{
+  position: relative;
+  /*overflow: hidden;*/
+}
+
 .bg-img img{
   position: absolute;
   left: 0;
@@ -45,6 +50,39 @@
   height: auto;
   z-index: -1;
   opacity: 0.27;
+}
+
+@media only screen and (max-width: 1460px) {
+  .bg-img img {
+    width: 126%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-img img {
+    width: 164%;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .bg-img img {
+    width: 260%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-img img {
+    width: 650%;
+  }
+}
+
+
+@media only screen and (max-width: 415px) {
+  .bg-img img {
+    width: 1040%;
+  }
 }
 
 

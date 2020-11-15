@@ -1,3 +1,5 @@
+import {ElementSelectionService} from './../../../element-selection.service';
+import {ComponentInspectorService} from './../../../component-inspector.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,23 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IngatlanKepekComponent implements OnInit {
 
-  kepek;
-
-  flag = false;
-
-
-  onImageLoad(e){
-
-  this.flag = true
-}
-  
+  constructor(public __elementSelectionService:ElementSelectionService,private __componentInspectorService:ComponentInspectorService) { this.__componentInspectorService.getComp(this); }kepek;
 
   ngOnInit() : void{
 
-    
-    
-
-    
     this.kepek = [
       {img: '../assets/images/ingatlanok/1.jpg'},
       {img: '../assets/images/ingatlanok/2.jpg'},
@@ -46,7 +35,7 @@ export class IngatlanKepekComponent implements OnInit {
       {img: '../assets/images/ingatlanok/ddd.jpg'},
       {img: '../assets/images/ingatlanok/fff.jpg'},
       {img: '../assets/images/ingatlanok/IMG_5835.jpg'},
-      {img: '../assets/images/ingatlanok/IMG_6088.jpg'},
+      {img: '../assets/images/ingatlanok/images/IMG_6088.jpg'},
       {img: '../assets/images/ingatlanok/IMG_6095.jpg'},
       {img: '../assets/images/ingatlanok/IMG_6166.jpg'},
       {img: '../assets/images/ingatlanok/IMG_6168.jpg'},
