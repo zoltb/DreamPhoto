@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 
 @Component({
@@ -8,20 +8,17 @@ import {Component, HostListener, OnInit} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  private headerScrolled = false;
-  private headerNarrowed = false;
-  private headerOnTop = true;
+  public headerScrolled = false;
+  public headerNarrowed = false;
+  public headerOnTop = true;
 
-  private yScrollPXLimit = 289;
-  private xWidthPXLimit = 992;
+  public yScrollPXLimit = 289;
+  public xWidthPXLimit = 992;
 
-    flag = true;
-
-
-  onImageLoad(e){
-
-  this.flag = true
-}
+  flag = false;
+  onImageLoad(e) {
+    this.flag = true
+  }
 
   ngOnInit() {
     if (window.innerWidth < 992) {

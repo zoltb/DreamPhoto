@@ -1,5 +1,5 @@
-import {Component, OnInit, ViewChild, OnChanges} from '@angular/core';
-import {SlickCarouselComponent} from 'ngx-slick-carousel';
+import { Component, OnInit, ViewChild, OnChanges } from '@angular/core';
+import { SlickCarouselComponent } from 'ngx-slick-carousel';
 
 @Component({
   selector: 'app-main-page',
@@ -8,15 +8,20 @@ import {SlickCarouselComponent} from 'ngx-slick-carousel';
 })
 export class MainPageComponent {
 
+  flag = false;
+  onImageLoad(e) {
+    this.flag = true
+  }
+
   slides = [
-    {img: '../assets/tothegith/kezdolap/IMG_4832.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_4980.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5715.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5015.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5666.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6088.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6481.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6628.jpg'},
+    { img: '../assets/tothegith/kezdolap/IMG_4832.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_4980.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5715.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5015.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5666.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6088.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6481.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6628.jpg' },
   ];
 
   slideConfig = {
@@ -28,5 +33,5 @@ export class MainPageComponent {
     focusOnSelect: true,
 
   };
-  
+
 }

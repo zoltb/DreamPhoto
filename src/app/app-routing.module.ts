@@ -29,24 +29,26 @@ const routes: Routes = [
 
   },
 
-  {
-    path: 'kepek',
-    component: GalleryPageComponent
-  },
-
-  {
-    path: 'kepek/ingatlanok',
+  // {
+  //   path: 'kepek',
+  //   component: GalleryPageComponent
+  // },
+{
+    path: 'ingatlankepek',
     component: GalleryIngatlanokComponent
+  // {
+  //   path: 'kepek/ingatlanok',
+  //   component: GalleryIngatlanokComponent
 
-  },
-  {
-    path: 'kepek/ceges',
-    component: GalleryCegesComponent
+  // },
+  // {
+  //   path: 'kepek/ceges',
+  //   component: GalleryCegesComponent
 
-  },
-  {
-    path: 'kepek/egyeb',
-    component: GalleryEgyebComponent
+  // },
+  // {
+  //   path: 'kepek/egyeb',
+  //   component: GalleryEgyebComponent
 
   },
 
