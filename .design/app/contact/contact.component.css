@@ -1,0 +1,120 @@
+.styledTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 10px 0px 10px 0px
+}
+
+.styledTitle div {
+  padding-top: 30px;
+  border-bottom: 1px solid #000;
+
+}
+
+.fa-facebook-square {
+  padding: 0 !important;
+}
+
+.profileImg {
+  text-align: center;
+  border-radius: 50%;
+  padding-bottom: 40px;
+}
+
+.profileImg img {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  opacity: 0.53;
+}
+
+.styledDoubleLines {
+  margin: 20px 10% 30px 10%;
+  border-top-style: solid;
+}
+/*.bg-img{*/
+  /*position: relative;*/
+
+  /*height: 100%;*/
+/*}*/
+
+.bg-img{
+  position: relative;
+  /*overflow: hidden;*/
+}
+
+.bg-img img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0.27;
+}
+
+@media only screen and (max-width: 1460px) {
+  .bg-img img {
+    width: 126%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-img img {
+    width: 164%;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .bg-img img {
+    width: 260%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-img img {
+    width: 650%;
+  }
+}
+
+
+@media only screen and (max-width: 415px) {
+  .bg-img img {
+    width: 1040%;
+  }
+}
+
+
+.grid-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 40% auto auto 40%;
+
+}
+
+.contact {
+  font-family: "Montserrat";
+  /*padding: 10% 0 ;*/
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  /*width: 10%;*/
+  text-align: center;
+  /*text-decoration: none;*/
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+}

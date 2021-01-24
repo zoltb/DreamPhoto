@@ -1,0 +1,76 @@
+
+.bg-img{
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img #main-bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  opacity: 0.13;
+}
+
+@media only screen and (max-width: 1460px) {
+  .bg-img #main-bg {
+    width: 126%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-img #main-bg {
+    width: 164%;
+  }
+  }
+
+
+@media only screen and (max-width: 992px) {
+  .bg-img #main-bg {
+    width: 340%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-img #main-bg {
+    width: 650%;
+  }
+}
+
+
+@media only screen and (max-width: 415px) {
+  .bg-img #main-bg {
+    width: 1040%;
+  }
+}
+
+.bg-img #secondary-bg{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  opacity: 0.13;
+}
+
+
+.styledTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 10px 0px 10px 0px
+}
+
+/*.styledTitle div {*/
+  /*padding-top: 30px;*/
+  /*border-bottom: 1px solid #000;*/
+
+/*}*/
+
+.styledDoubleLines {
+  margin: 20px 10% 30px 10%;
+  border-top-style: solid;
+}

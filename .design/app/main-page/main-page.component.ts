@@ -1,7 +1,7 @@
 import {ElementSelectionService} from './../element-selection.service';
 import {ComponentInspectorService} from './../component-inspector.service';
-import {Component, OnInit, ViewChild} from '@angular/core';
-import {SlickCarouselComponent} from 'ngx-slick-carousel';
+import { Component, OnInit, ViewChild, OnChanges } from '@angular/core';
+import { SlickCarouselComponent } from 'ngx-slick-carousel';
 
 @Component({
   selector: 'app-main-page',
@@ -10,16 +10,20 @@ import {SlickCarouselComponent} from 'ngx-slick-carousel';
 })
 export class MainPageComponent {
 
+  constructor(public __elementSelectionService:ElementSelectionService,private __componentInspectorService:ComponentInspectorService) { this.__componentInspectorService.getComp(this); }flag = false;
+  onImageLoad(e) {
+    this.flag = true
+  }
 
-  constructor(public __elementSelectionService:ElementSelectionService,private __componentInspectorService:ComponentInspectorService) { this.__componentInspectorService.getComp(this); }slides = [
-    {img: '../assets/tothegith/kezdolap/IMG_4832.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_4980.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5715.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5015.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_5666.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6088.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6481.jpg'},
-    {img: '../assets/tothegith/kezdolap/IMG_6628.jpg'},
+  slides = [
+    { img: '../assets/tothegith/kezdolap/IMG_4832.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_4980.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5715.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5015.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_5666.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6088.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6481.jpg' },
+    { img: '../assets/tothegith/kezdolap/IMG_6628.jpg' },
   ];
 
   slideConfig = {
@@ -32,19 +36,4 @@ export class MainPageComponent {
 
   };
 
-  slickInit(e) {
-    console.log('slick initialized');
-  }
-
-  breakpoint(e) {
-    console.log('breakpoint');
-  }
-
-  afterChange(e) {
-    console.log('afterChange');
-  }
-
-  beforeChange(e) {
-    console.log('beforeChange');
-  }
 }
