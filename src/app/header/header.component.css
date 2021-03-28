@@ -20,6 +20,10 @@ li {
   vertical-align: top;
 }
 
+.dropdown-item:focus{
+  background-color: #e6e7e8;
+}
+
 li a[role=button] {
   position: relative;
   transition: .5s;
@@ -30,11 +34,13 @@ li a[role=button] {
 li a[role=button]:hover {
   box-shadow: 0 0 11px rgba(105, 105, 105, 0.2);
   background-color: rgba(178, 178, 178, 0.2);
+  background-color: rgba(178, 178, 178, 0.2);
 }
 
 .headerTop {
   text-align: center;
   background-color: #e6e7e8;
+  padding-bottom: 0px
 }
 
 
@@ -98,7 +104,7 @@ li a[role=button]:hover {
 }
 
 * {
-  font-family: "Montserrat", Roboto, Arial;
+  font-family: Montserrat, Roboto, Arial;
   font-weight: bolder;
   font-size: 105%;
   color: black
@@ -179,5 +185,12 @@ li a[role=button]:hover {
   }
 }
 
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,0.65);
+	}
+
+.navbar-text img{
+padding-bottom: 9%
+	}
 
 

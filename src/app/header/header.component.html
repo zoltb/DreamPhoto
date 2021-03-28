@@ -12,7 +12,7 @@
           <a routerLink="/" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button">Kezdőoldal</a>
         </li>
          <li class="nav-item">
-          <a routerLink="/ingatlankepek" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button">Ingatlanfotózás</a>
+          <a routerLink="/ingatlankepek" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button">Ingatlanfotók</a>
         </li>
         <!-- <li class="nav-item dropdown dropright" id="navbarGalleryDropdownMainMenuLink">
           <a class="nav-link dropdown-toggle  dropdown-toggle-split" role="button"
@@ -45,17 +45,13 @@
 
 <div *ngIf="headerScrolled">
   <nav class="headerScroll navbar navbar-expand-lg navbar-light shadow rounded sticky-top">
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" >
       <div class="container">
         <ul class="navbar-nav container">
           <li class="nav-item">
             <a routerLink="/" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button">Kezdőoldal</a>
           </li>
           <li class="nav-item">
-            <!-- <a routerLink="/kepek" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button"
-               id="navbarGalleryMiddleMenuLink">
-              Galléria
-            </a> -->
             <a routerLink="/ingatlankepek" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button"
                id="navbarGalleryMiddleMenuLink">
               Ingatlanfotózás
@@ -83,7 +79,7 @@
           <a class="dropdown" data-toggle="dropdown" id="navbarNarrowDropdownMenuLink">
               <img class="photoIcon" src="../../favicon.ico">
           </a>
-            <div class="dropdown-menu" aria-labelledby="navbarNarrowDropdownMenuLink">
+            <div class="dropdown-menu show" aria-labelledby="navbarNarrowDropdownMenuLink" >
               <a class="dropdown-item" routerLink="/ingatlankepek">Ingatlanfotózás</a>
               <a class="dropdown-item" routerLink="/bemutatkozas">Bemutatkozás</a>
               <a class="dropdown-item" routerLink="/">Kezdőoldal</a>

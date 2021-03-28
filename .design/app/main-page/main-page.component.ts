@@ -15,6 +15,7 @@ export class MainPageComponent {
     this.flag = true
   }
 
+
   slides = [
     { img: '../assets/tothegith/kezdolap/IMG_4832.jpg' },
     { img: '../assets/tothegith/kezdolap/IMG_4980.jpg' },
@@ -27,13 +28,17 @@ export class MainPageComponent {
   ];
 
   slideConfig = {
+	arrows:true,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
     infinite: true,
     autoplay: true,
-    focusOnSelect: true,
+    focusOnSelect: true
+    
 
   };
+  
+	
 
 }

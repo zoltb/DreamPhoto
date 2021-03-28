@@ -1,6 +1,6 @@
 
 h1 {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h3 {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -27,7 +27,7 @@ p {
 }
 
 blockquote {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 21px;
   font-style: normal;
   font-variant: normal;
@@ -36,7 +36,7 @@ blockquote {
 }
 
 pre {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -58,6 +58,6 @@ body{
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Kalam, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Montserrat, Roboto, Arial }
 
 

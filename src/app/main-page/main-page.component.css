@@ -13,6 +13,11 @@ grid-container {
     margin: 10px 0px 25px 0px;
   }
 }
+/* .slick-prev:before, .slick-next:before { */
+/*     font-family: "Glyphicons Halflings", "slick", sans-serif; */
+/*     font-size: 40px; */
+/* } */
 
-
+/* .slick-prev:before { content: "\e257"; } */
+/* .slick-next:before { content: "\e258"; } */
 

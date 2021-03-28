@@ -1,6 +1,6 @@
   
 <h3>
-  <div style="padding-top: 30px;border-bottom: 1px;"></div>
+  <div style="padding-top: 30px"></div>
 </h3>
 
 <div class="container" style="box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.15); padding: 0px">
@@ -8,15 +8,16 @@
                     #slickModal="slick-carousel"
                     [config]="slideConfig"  
                     >
-  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide" autofocus>
     <img   src="{{ slide.img }}" alt="" width="100%" (load)="onImageLoad($event)">
   </div>
 </ngx-slick-carousel>
 </div>
 
+
 <div style="margin: 70px 10% 30px 10%">
   <div>
-    <div style="border-bottom-style: solid"></div>
+    <div></div>
     <div class="grid-container">
       <app-main></app-main>
     </div>

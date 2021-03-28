@@ -35,6 +35,7 @@ li a[role=button]:hover {
 .headerTop {
   text-align: center;
   background-color: #e6e7e8;
+  padding-bottom: 0px
 }
 
 
@@ -98,7 +99,7 @@ li a[role=button]:hover {
 }
 
 * {
-  font-family: "Montserrat", Roboto, Arial;
+  font-family: Montserrat, Roboto, Arial;
   font-weight: bolder;
   font-size: 105%;
   color: black
@@ -179,5 +180,12 @@ li a[role=button]:hover {
   }
 }
 
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,0.65);
+	}
+
+.navbar-text img{
+padding-bottom: 9%
+	}
 
 
