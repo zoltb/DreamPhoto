@@ -170,7 +170,6 @@ li a[role=button]:hover {
 }
 .photoIcon {
   border-radius: 100%;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 576px) {
@@ -180,17 +179,15 @@ li a[role=button]:hover {
 }
 
 @media only screen and (max-width: 575px) {
-  .photoIcon {
-    width: 14%;
-  }
+	.photoIcon {
+		width: 14%;
+	}
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0,0,0,0.65);
-	}
+	color: rgba(0, 0, 0, 0.65);
+}
 
-.navbar-text img{
-padding-bottom: 9%
-	}
-
-
+.navbar-text img {
+	padding-bottom: 9%
+}
