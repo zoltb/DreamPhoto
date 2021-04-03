@@ -20,6 +20,10 @@ li {
   vertical-align: top;
 }
 
+.dropdown-item:focus{
+  background-color: #e6e7e8;
+}
+
 li a[role=button] {
   position: relative;
   transition: .5s;
@@ -29,6 +33,7 @@ li a[role=button] {
 
 li a[role=button]:hover {
   box-shadow: 0 0 11px rgba(105, 105, 105, 0.2);
+  background-color: rgba(178, 178, 178, 0.2);
   background-color: rgba(178, 178, 178, 0.2);
 }
 
@@ -165,7 +170,6 @@ li a[role=button]:hover {
 }
 .photoIcon {
   border-radius: 100%;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 576px) {
@@ -175,17 +179,15 @@ li a[role=button]:hover {
 }
 
 @media only screen and (max-width: 575px) {
-  .photoIcon {
-    width: 14%;
-  }
+	.photoIcon {
+		width: 14%;
+	}
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0,0,0,0.65);
-	}
+	color: rgba(0, 0, 0, 0.65);
+}
 
-.navbar-text img{
-padding-bottom: 9%
-	}
-
-
+.navbar-text img {
+	padding-bottom: 9%
+}
