@@ -22,7 +22,7 @@ import { GalleryEgyebComponent } from './gallery-page/gallery-egyeb/gallery-egye
 
 
 @NgModule({
-  declarations: [,AppComponent,HeaderComponent],
+  declarations: [],
   imports: [
     BrowserModule,
     AppRoutingModule,

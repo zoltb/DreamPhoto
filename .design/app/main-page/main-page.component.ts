@@ -17,14 +17,28 @@ export class MainPageComponent {
 
 
   slides = [
-    { img: '../assets/tothegith/kezdolap/IMG_4832.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_4980.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_5715.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_5015.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_5666.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_6088.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_6481.jpg' },
-    { img: '../assets/tothegith/kezdolap/IMG_6628.jpg' },
+	{ img: '../assets/tothegith/kezdolap/IMG_5015.jpg' },
+    {img: '../assets/images/ingatlanok/5.jpg'},
+    {img: '../assets/images/ingatlanok/20.jpg'},
+    {img: '../assets/images/ingatlanok/80.jpg'},
+    {img: '../assets/images/ingatlanok/b.jpg'},
+    {img: '../assets/images/ingatlanok/c.jpg'},    
+    {img: '../assets/images/ingatlanok/IMG_5835.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6088.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6168.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6175.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6207.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6216.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6616.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6624.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6631.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6633.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6638.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6728.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6744.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6748.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_6750.jpg'},
+    {img: '../assets/images/ingatlanok/IMG_7096.JPG'},
   ];
 
   slideConfig = {

@@ -27,33 +27,20 @@ export class IngatlanKepekComponent implements OnInit {
   getFocusOnSlide(){
 	  setTimeout(function(){
 		  $(".carousel-control-next").focus();
-		//  }, null);
-	  //setTimeout(function(){
-	  //$(".carousel-control-next-icon").click();
 	  }, 500);
   }
   ngOnInit() : void{
-	  
- // $(document).ready(function() {
-     // alert('we call alert from JQuery');
- //});
-  
-  
-  
   
   this.kepek = [
                 {img: '../assets/images/ingatlanok/1.jpg'},
-                {img: '../assets/images/ingatlanok/2.jpg'},
+                {img: '../assets/images/ingatlanok/3.jpg'},
                 {img: '../assets/images/ingatlanok/5.jpg'},
-                {img: '../assets/images/ingatlanok/10.jpg'},
-                {img: '../assets/images/ingatlanok/17.jpg'},
-                {img: '../assets/images/ingatlanok/18.jpg'},
-                {img: '../assets/images/ingatlanok/20.jpg'},
-                {img: '../assets/images/ingatlanok/80.jpg'},
-                {img: '../assets/images/ingatlanok/200.jpg'},
-                {img: '../assets/images/ingatlanok/1111.jpg'},
-                {img: '../assets/images/ingatlanok/2222.jpg'},
-                {img: '../assets/images/ingatlanok/5555.jpg'},
+                {img: '../assets/images/ingatlanok/4.jpg'},
+                {img: '../assets/images/ingatlanok/2.jpg'},
+                {img: '../assets/images/ingatlanok/6.jpg'},
+                {img: '../assets/images/ingatlanok/7.jpg'},
+                {img: '../assets/images/ingatlanok/8.jpg'},
+                {img: '../assets/images/ingatlanok/16.jpg'},
                 {img: '../assets/images/ingatlanok/12121.jpg'},
                 {img: '../assets/images/ingatlanok/101010.jpg'},
                 {img: '../assets/images/ingatlanok/a.jpg'},
@@ -61,8 +48,24 @@ export class IngatlanKepekComponent implements OnInit {
                 {img: '../assets/images/ingatlanok/b.jpg'},
                 {img: '../assets/images/ingatlanok/c.jpg'},
                 {img: '../assets/images/ingatlanok/ddd.jpg'},
-                {img: '../assets/images/ingatlanok/fff.jpg'},
-                
+                {img: '../assets/images/ingatlanok/fff.jpg'},                
+                { img: '../assets/images/ingatlanok/IMG_0872.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0873.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0874.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0876.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0881.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0886.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0887.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0889.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0893.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0894.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0895.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0897.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0898.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0902.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0903.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0905.jpg' },
+                { img: '../assets/images/ingatlanok/IMG_0907.jpg' },
                 { img: '../assets/tothegith/kezdolap/IMG_4832.jpg' },
                 { img: '../assets/tothegith/kezdolap/IMG_4980.jpg' },
                 { img: '../assets/tothegith/kezdolap/IMG_5715.jpg' },
@@ -70,11 +73,13 @@ export class IngatlanKepekComponent implements OnInit {
                 { img: '../assets/tothegith/kezdolap/IMG_5666.jpg' },
                 { img: '../assets/tothegith/kezdolap/IMG_6088.jpg' },
                 { img: '../assets/tothegith/kezdolap/IMG_6481.jpg' },
-                { img: '../assets/tothegith/kezdolap/IMG_6628.jpg' },
-                
                 {img: '../assets/images/ingatlanok/IMG_5835.jpg'},
-//                {img: '../assets/images/ingatlanok/IMG_6088.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6095.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6168.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6175.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6207.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6216.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6225.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6166.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6168.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6175.jpg'},
@@ -82,12 +87,13 @@ export class IngatlanKepekComponent implements OnInit {
                 {img: '../assets/images/ingatlanok/IMG_6216.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6225.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6551.jpg'},
-                {img: '../assets/images/ingatlanok/IMG_6616.jpg'},
-                {img: '../assets/images/ingatlanok/IMG_6624.jpg'},
-                {img: '../assets/images/ingatlanok/IMG_6631.jpg'},
-                {img: '../assets/images/ingatlanok/IMG_6633.jpg'},
-                {img: '../assets/images/ingatlanok/IMG_6638.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6659.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6631.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6638.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6624.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6616.jpg'},
+                {img: '../assets/images/ingatlanok/IMG_6633.jpg'},
+                { img: '../assets/tothegith/kezdolap/IMG_6628.jpg' },
                 {img: '../assets/images/ingatlanok/IMG_6668.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6708.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_6718.jpg'},
@@ -109,44 +115,10 @@ export class IngatlanKepekComponent implements OnInit {
                 {img: '../assets/images/ingatlanok/IMG_7759.jpg'},
                 {img: '../assets/images/ingatlanok/IMG_8239.jpg'},
                 {img: '../assets/images/ingatlanok/sss.jpg'},
+                {img: '../assets/images/ingatlanok/sss1.jpg'},
 
               ];
             }
-
-  /*key($event) {
-	  
-	  //let e: HTMLElement = document.getElementsByClassName('carousel-control-next') as HTMLElement;
-	   
-	    if ($event.key == "ArrowRight") {
-	        // Action on Ctrl + S
-	        let event = new MouseEvent('click', {bubbles: true});
-	        document.getElementsByClassName('carousel-control-next');
-	        console.log(999);
-	        
-	    }
-	    if ($event.key == "ArrowRight") {
-	    	
-	    }
-	  }
-  onClickMe(event){
-	  console.log('yo yo yo .....you good to go.!!!');
-	}
-  
-  
-  
- */
-  
-	  
-	 // this.onClickMe(event);
-
-//	  $('carousel-control-next').click(function(){
-	//	  alert(999);
-		//   });
-    
-
-    
-   
-  
 }
 
 

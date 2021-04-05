@@ -14,18 +14,6 @@
          <li class="nav-item">
           <a routerLink="/ingatlankepek" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button">Ingatlanfotók</a>
         </li>
-        <!-- <li class="nav-item dropdown dropright" id="navbarGalleryDropdownMainMenuLink">
-          <a class="nav-link dropdown-toggle  dropdown-toggle-split" role="button"
-             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Galléria
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarGalleryDropdownMainMenuLink">
-            <a class="dropdown-item" routerLink="/kepek/ingatlanok">Ingatlanfotózás</a>
-            <a class="dropdown-item" routerLink="/kepek/ceges">Céges fotozás</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" routerLink="/kepek/egyeb">Egyéb témák</a>
-          </div>
-        </li> -->
         <li class="nav-item">
           <a routerLink="/bemutatkozas" class="nav-link" aria-haspopup="true" aria-expanded="false" role="button"
              id="navbarAboutMainMenuLink">
@@ -73,7 +61,7 @@
 </div>
 
 <div *ngIf="headerNarrowed">
-  <nav class="headerNarrow navbar navbar-expand navbar-light shadow rounded" style="">
+  <nav class="headerNarrow navbar navbar-expand navbar-light shadow rounded">
     <div class="collapse navbar-collapse">
       <div class="container dropdown">
           <span class="dropdown" data-toggle="" id="navbarNarrowDropdownMenuLink">
@@ -83,7 +71,6 @@
             <a class="dropdown-item" routerLink="/">Kezdőoldal</a>
               <a class="dropdown-item" routerLink="/ingatlankepek">Ingatlanfotózás</a>
               <a class="dropdown-item" routerLink="/bemutatkozas">Bemutatkozás</a>
-              
               <a class="dropdown-item" routerLink="/kapcsolat">Kapcsolat</a>
             </div>
       </div>

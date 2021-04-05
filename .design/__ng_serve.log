@@ -8,20 +8,20 @@
 √ Browser application bundle generation complete.
 
 Initial Chunk Files   | Names         |      Size
-vendor.js             | vendor        |   6.39 MB
+vendor.js             | vendor        |   6.37 MB
 styles.css, styles.js | styles        | 538.64 kB
 polyfills.js          | polyfills     | 472.73 kB
 scripts.js            | scripts       | 129.30 kB
-main.js               | main          | 120.89 kB
+main.js               | main          |  72.70 kB
 runtime.js            | runtime       |   6.15 kB
 
-| Initial Total |   7.62 MB
+| Initial Total |   7.56 MB
 
-Build at: 2021-04-03T19:07:01.461Z - Hash: 5bee95950f6f9dab7263 - Time: 31414ms
+Build at: 2021-04-05T11:29:26.555Z - Hash: d2c1711cc6dff6052ab8 - Time: 28662ms
 
 Error: .design/app/about/about.component.html:1:91 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div class="bg-img" (contextmenu)="__elementSelectionService.select('2106262056',$event)" [ngStyle]="__elementSelectionService.getStyles('2106262056')"(click)='__elementSelectionService.clear()'>
+1 <div class="bg-img" (contextmenu)="__elementSelectionService.select('1395436569',$event)" [ngStyle]="__elementSelectionService.getStyles('1395436569')"(click)='__elementSelectionService.clear()'>
                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
@@ -32,7 +32,7 @@ Error: .design/app/about/about.component.html:1:91 - error NG8002: Can't bind to
 
 Error: .design/app/about/about.component.html:2:134 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
 
-2   <img id="main-bg" src="../../assets/images/seged/hatter.jpg" (contextmenu)="__elementSelectionService.select('2101400140',$event)" [ngStyle]="__elementSelectionService.getStyles('2101400140')">
+2   <img id="main-bg" src="../../assets/images/seged/hatter.jpg" (contextmenu)="__elementSelectionService.select('1268064696',$event)" [ngStyle]="__elementSelectionService.getStyles('1268064696')">
                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
@@ -41,10 +41,10 @@ Error: .design/app/about/about.component.html:2:134 - error NG8002: Can't bind t
     Error occurs in the template of component AboutComponent.
 
 
-Error: .design/app/about/about.component.html:3:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/about/about.component.html:3:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div (contextmenu)="__elementSelectionService.select('848499370',$event)" [ngStyle]="__elementSelectionService.getStyles('848499370')">
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3   <div (contextmenu)="__elementSelectionService.select('1980027538',$event)" [ngStyle]="__elementSelectionService.getStyles('1980027538')">
+                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
     7   templateUrl: './about.component.html',
@@ -54,7 +54,7 @@ Error: .design/app/about/about.component.html:3:77 - error NG8002: Can't bind to
 
 Error: .design/app/about/about.component.html:4:105 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-4     <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('721114367',$event)" [ngStyle]="__elementSelectionService.getStyles('721114367')">
+4     <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('155276477',$event)" [ngStyle]="__elementSelectionService.getStyles('155276477')">
                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
@@ -63,10 +63,10 @@ Error: .design/app/about/about.component.html:4:105 - error NG8002: Can't bind t
     Error occurs in the template of component AboutComponent.
 
 
-Error: .design/app/about/about.component.html:5:104 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/about/about.component.html:5:105 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-5       <div class="grid-container" (contextmenu)="__elementSelectionService.select('850948714',$event)" [ngStyle]="__elementSelectionService.getStyles('850948714')">
-                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5       <div class="grid-container" (contextmenu)="__elementSelectionService.select('1129316454',$event)" [ngStyle]="__elementSelectionService.getStyles('1129316454')">
+                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
     7   templateUrl: './about.component.html',
@@ -78,8 +78,8 @@ Error: .design/app/about/about.component.html:6:9 - error NG8001: 'app-leiras' i
 1. If 'app-leiras' is an Angular component, then verify that it is part of this module.
 2. If 'app-leiras' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-6         <app-leiras (contextmenu)="__elementSelectionService.select('1234240707',$event)" [ngStyle]="__elementSelectionService.getStyles('1234240707')"></app-leiras>
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6         <app-leiras (contextmenu)="__elementSelectionService.select('556429653',$event)" [ngStyle]="__elementSelectionService.getStyles('556429653')"></app-leiras>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
     7   templateUrl: './about.component.html',
@@ -87,13 +87,13 @@ Error: .design/app/about/about.component.html:6:9 - error NG8001: 'app-leiras' i
     Error occurs in the template of component AboutComponent.
 
 
-Error: .design/app/about/about.component.html:6:91 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-leiras'.
+Error: .design/app/about/about.component.html:6:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-leiras'.
 1. If 'app-leiras' is an Angular component and it has 'ngStyle' input, then verify that it is part of this module.
 2. If 'app-leiras' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-6         <app-leiras (contextmenu)="__elementSelectionService.select('1234240707',$event)" [ngStyle]="__elementSelectionService.getStyles('1234240707')"></app-leiras>
-                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6         <app-leiras (contextmenu)="__elementSelectionService.select('556429653',$event)" [ngStyle]="__elementSelectionService.getStyles('556429653')"></app-leiras>
+                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/about.component.ts:7:16
     7   templateUrl: './about.component.html',
@@ -103,7 +103,7 @@ Error: .design/app/about/about.component.html:6:91 - error NG8002: Can't bind to
 
 Error: .design/app/about/leiras/leiras.component.html:15:76 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
 
-15   <h5 (contextmenu)="__elementSelectionService.select('144961390',$event)" [ngStyle]="__elementSelectionService.getStyles('144961390')">Szem&#233;lyes k&#246;t&#337;d&#233;s: </h5>
+15   <h5 (contextmenu)="__elementSelectionService.select('153862146',$event)" [ngStyle]="__elementSelectionService.getStyles('153862146')">Szem&#233;lyes k&#246;t&#337;d&#233;s: </h5>
                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
@@ -114,7 +114,7 @@ Error: .design/app/about/leiras/leiras.component.html:15:76 - error NG8002: Can'
 
 Error: .design/app/about/leiras/leiras.component.html:16:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-16   <p (contextmenu)="__elementSelectionService.select('650194510',$event)" [ngStyle]="__elementSelectionService.getStyles('650194510')">A lencse t&#250;loldal&#225;r&#243;l m&#225;r t&#246;bb, mint 20 &#233;ve figyelem a vil&#225;got. Az elm&#250;lt &#233;vekben a f&#233;nyk&#233;pez&#233;s ir&#225;nti
+16   <p (contextmenu)="__elementSelectionService.select('888108630',$event)" [ngStyle]="__elementSelectionService.getStyles('888108630')">A lencse t&#250;loldal&#225;r&#243;l m&#225;r t&#246;bb, mint 20 &#233;ve figyelem a vil&#225;got. Az elm&#250;lt &#233;vekben a f&#233;nyk&#233;pez&#233;s ir&#225;nti
                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
@@ -123,32 +123,10 @@ Error: .design/app/about/leiras/leiras.component.html:16:75 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:2:326 - [91merror NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
+Error: .design/app/about/leiras/leiras.component.html:2:324 - [91merror NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
 
-2 <div class="profileImg" (contextmenu)="__elementSelectionService.select('1486605643',$event)" [ngStyle]="__elementSelectionService.getStyles('1486605643')"(click)='__elementSelectionService.clear()'><img src="../../../assets/tothegith/seged/profile6.jpg" (contextmenu)="__elementSelectionService.select('1621744808',$event)" [ngStyle]="__elementSelectionService.getStyles('1621744808')">
-                                                                                                                                                                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/about/leiras/leiras.component.ts:7:16
-    7   templateUrl: './leiras.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component LeirasComponent.
-
-
-Error: .design/app/about/leiras/leiras.component.html:2:95 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
-
-2 <div class="profileImg" (contextmenu)="__elementSelectionService.select('1486605643',$event)" [ngStyle]="__elementSelectionService.getStyles('1486605643')"(click)='__elementSelectionService.clear()'><img src="../../../assets/tothegith/seged/profile6.jpg" (contextmenu)="__elementSelectionService.select('1621744808',$event)" [ngStyle]="__elementSelectionService.getStyles('1621744808')">
-                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/about/leiras/leiras.component.ts:[93m7:16
-    7   templateUrl: './leiras.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component LeirasComponent.
-
-
-Error: .design/app/about/leiras/leiras.component.html:22:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
-
-22   <h5 (contextmenu)="__elementSelectionService.select('86532509',$event)" [ngStyle]="__elementSelectionService.getStyles('86532509')">Ami&#233;rt &#233;rdemes megb&#237;znia ingatlanfot&#243;z&#225;ssal: </h5>
-                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 <div class="profileImg" (contextmenu)="__elementSelectionService.select('946008172',$event)" [ngStyle]="__elementSelectionService.getStyles('946008172')"(click)='__elementSelectionService.clear()'><img src="../../../assets/tothegith/seged/profile6.jpg" (contextmenu)="__elementSelectionService.select('2018031167',$event)" [ngStyle]="__elementSelectionService.getStyles('2018031167')">
+                                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -156,10 +134,10 @@ Error: .design/app/about/leiras/leiras.component.html:22:75 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:23:76 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+Error: .design/app/about/leiras/leiras.component.html:2:94 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-23   <p (contextmenu)="__elementSelectionService.select('1609499822',$event)" [ngStyle]="__elementSelectionService.getStyles('1609499822')">Az ingatlanr&#243;l k&#233;sz&#252;lt, megfelel&#337;en be&#225;ll&#237;tott &#233;s min&#337;s&#233;gi k&#233;pek eset&#233;n - tov&#225;bb&#225; kisebb, a f&#233;nyk&#233;peken elv&#233;gzett
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 <div class="profileImg" (contextmenu)="__elementSelectionService.select('946008172',$event)" [ngStyle]="__elementSelectionService.getStyles('946008172')"(click)='__elementSelectionService.clear()'><img src="../../../assets/tothegith/seged/profile6.jpg" (contextmenu)="__elementSelectionService.select('2018031167',$event)" [ngStyle]="__elementSelectionService.getStyles('2018031167')">
+                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -167,9 +145,9 @@ Error: .design/app/about/leiras/leiras.component.html:23:76 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:32:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+Error: .design/app/about/leiras/leiras.component.html:22:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
 
-32   <br (contextmenu)="__elementSelectionService.select('1218468002',$event)" [ngStyle]="__elementSelectionService.getStyles('1218468002')">
+22   <h5 (contextmenu)="__elementSelectionService.select('2093874950',$event)" [ngStyle]="__elementSelectionService.getStyles('2093874950')">Ami&#233;rt &#233;rdemes megb&#237;znia: </h5>
                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
@@ -178,21 +156,10 @@ Error: .design/app/about/leiras/leiras.component.html:32:77 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:34:76 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+Error: .design/app/about/leiras/leiras.component.html:23:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-34   <p (contextmenu)="__elementSelectionService.select('1740422310',$event)" [ngStyle]="__elementSelectionService.getStyles('1740422310')">
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/about/leiras/leiras.component.ts:7:16
-    7   templateUrl: './leiras.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component LeirasComponent.
-
-
-Error: .design/app/about/leiras/leiras.component.html:38:79 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
-
-38   </p><p (contextmenu)="__elementSelectionService.select('568200517',$event)" [ngStyle]="__elementSelectionService.getStyles('568200517')">
-                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+23   <p (contextmenu)="__elementSelectionService.select('249909856',$event)" [ngStyle]="__elementSelectionService.getStyles('249909856')">Meggy&#337;z&#337;d&#233;sem, hogy k&#233;t f&#337; szempont kelti fel az hirdet&#233;seket b&#246;ng&#233;sz&#337; &#233;rdekl&#337;d&#337;k figyelm&#233;t. Ezek pedig az &#225;r-alapter&#252;let ar&#225;ny, valamint a f&#233;nyk&#233;pek. &#201;n az ut&#243;bbiban tudok seg&#237;ts&#233;get ny&#250;jtani. Nem el&#233;g j&#243;nak lenni, annak is kell l&#225;tszani! A f&#233;nyk&#233;pek min&#337;s&#233;ge, &#233;s megfelel&#337; be&#225;ll&#237;t&#225;sa jav&#237;tja azt a benyom&#225;st, amit az &#233;rdekl&#337;d&#337; a hirdet&#233;s alapj&#225;n kap. Ez alapj&#225;n k&#246;vetkeztethet az ingatlantulajdonos, ak&#225;r a k&#246;zvet&#237;t&#337; ig&#233;nyess&#233;g&#233;re, hiteless&#233;g&#233;re. Ezen k&#237;v&#252;l egy nagy l&#225;t&#243;sz&#246;gben fot&#243;zott lak&#225;sr&#243;l t&#246;bbet tudunk meg, k&#246;nnyebb elk&#233;pzelni.
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -200,9 +167,42 @@ Error: .design/app/about/leiras/leiras.component.html:38:79 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:40:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+Error: .design/app/about/leiras/leiras.component.html:29:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-40     <br (contextmenu)="__elementSelectionService.select('112437156',$event)" [ngStyle]="__elementSelectionService.getStyles('112437156')">
+29   <br (contextmenu)="__elementSelectionService.select('1503242350',$event)" [ngStyle]="__elementSelectionService.getStyles('1503242350')">
+                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/about/leiras/leiras.component.ts:7:16
+    7   templateUrl: './leiras.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LeirasComponent.
+
+
+Error: .design/app/about/leiras/leiras.component.html:31:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+
+31   <p (contextmenu)="__elementSelectionService.select('378222797',$event)" [ngStyle]="__elementSelectionService.getStyles('378222797')">
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/about/leiras/leiras.component.ts:7:16
+    7   templateUrl: './leiras.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LeirasComponent.
+
+
+Error: .design/app/about/leiras/leiras.component.html:35:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+
+35   </p><p (contextmenu)="__elementSelectionService.select('95273173',$event)" [ngStyle]="__elementSelectionService.getStyles('95273173')">
+                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/about/leiras/leiras.component.ts:7:16
+    7   templateUrl: './leiras.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LeirasComponent.
+
+
+Error: .design/app/about/leiras/leiras.component.html:37:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+
+37     <br (contextmenu)="__elementSelectionService.select('570418258',$event)" [ngStyle]="__elementSelectionService.getStyles('570418258')">
                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
@@ -211,10 +211,10 @@ Error: .design/app/about/leiras/leiras.component.html:40:78 - error NG8002: Can'
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:5:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/about/leiras/leiras.component.html:5:89 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-5 <div class="about" (contextmenu)="__elementSelectionService.select('1178759048',$event)" [ngStyle]="__elementSelectionService.getStyles('1178759048')"(click)='__elementSelectionService.clear()'>
-                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5 <div class="about" (contextmenu)="__elementSelectionService.select('368515620',$event)" [ngStyle]="__elementSelectionService.getStyles('368515620')"(click)='__elementSelectionService.clear()'>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -222,10 +222,10 @@ Error: .design/app/about/leiras/leiras.component.html:5:90 - error NG8002: Can't
     Error occurs in the template of component LeirasComponent.
 
 
-Error: .design/app/about/leiras/leiras.component.html:8:76 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
+Error: .design/app/about/leiras/leiras.component.html:8:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
 
-8   <h5 (contextmenu)="__elementSelectionService.select('893567258',$event)" [ngStyle]="__elementSelectionService.getStyles('893567258')">Szakmai h&#225;tt&#233;r: </h5>
-                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8   <h5 (contextmenu)="__elementSelectionService.select('1430496552',$event)" [ngStyle]="__elementSelectionService.getStyles('1430496552')">Szakmai h&#225;tt&#233;r: </h5>
+                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -235,8 +235,8 @@ Error: .design/app/about/leiras/leiras.component.html:8:76 - error NG8002: Can't
 
 Error: .design/app/about/leiras/leiras.component.html:9:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-9   <p (contextmenu)="__elementSelectionService.select('173672686',$event)" [ngStyle]="__elementSelectionService.getStyles('173672686')">T&#246;bb, mint 10 &#233;ves tapasztalatom van Budapesten &#233;s k&#246;rny&#233;k&#233;n l&#233;v&#337; lak&#243;ingatlanok &#233;rt&#233;kes&#237;t&#233;s&#233;ben. Helyismeretemmel
-                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9   <p (contextmenu)="__elementSelectionService.select('609927175',$event)" [ngStyle]="__elementSelectionService.getStyles('609927175')">T&#246;bb, mint 10 &#233;ves tapasztalatom van Budapesten &#233;s k&#246;rny&#233;k&#233;n l&#233;v&#337; lak&#243;ingatlanok &#233;rt&#233;kes&#237;t&#233;s&#233;ben. Helyismeretemmel
+                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 
   .design/app/about/leiras/leiras.component.ts:7:16
     7   templateUrl: './leiras.component.html',
@@ -248,7 +248,7 @@ Error: .design/app/app.component.html:1:1 - error NG8001: 'app-header' is not a 
 1. If 'app-header' is an Angular component, then verify that it is part of this module.
 2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-1 <app-header (contextmenu)="__elementSelectionService.select('1077296927',$event)" [ngStyle]="__elementSelectionService.getStyles('1077296927')"(click)='__elementSelectionService.clear()'></app-header>
+1 <app-header (contextmenu)="__elementSelectionService.select('1352782179',$event)" [ngStyle]="__elementSelectionService.getStyles('1352782179')"(click)='__elementSelectionService.clear()'></app-header>
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/app.component.ts:7:16
@@ -262,7 +262,7 @@ Error: .design/app/app.component.html:1:83 - error NG8002: Can't bind to 'ngStyl
 2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-1 <app-header (contextmenu)="__elementSelectionService.select('1077296927',$event)" [ngStyle]="__elementSelectionService.getStyles('1077296927')"(click)='__elementSelectionService.clear()'></app-header>
+1 <app-header (contextmenu)="__elementSelectionService.select('1352782179',$event)" [ngStyle]="__elementSelectionService.getStyles('1352782179')"(click)='__elementSelectionService.clear()'></app-header>
                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/app.component.ts:7:16
@@ -275,8 +275,8 @@ Error: .design/app/app.component.html:2:1 - error NG8001: 'router-outlet' is not
 1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
 2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-2 <router-outlet (contextmenu)="__elementSelectionService.select('121442744',$event)" [ngStyle]="__elementSelectionService.getStyles('121442744')"(click)='__elementSelectionService.clear()'></router-outlet>
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 <router-outlet (contextmenu)="__elementSelectionService.select('1133118670',$event)" [ngStyle]="__elementSelectionService.getStyles('1133118670')"(click)='__elementSelectionService.clear()'></router-outlet>
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/app.component.ts:7:16
     7   templateUrl: './app.component.html',
@@ -284,13 +284,13 @@ Error: .design/app/app.component.html:2:1 - error NG8001: 'router-outlet' is not
     Error occurs in the template of component AppComponent.
 
 
-Error: .design/app/app.component.html:2:85 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'router-outlet'.
+Error: .design/app/app.component.html:2:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'router-outlet'.
 1. If 'router-outlet' is an Angular component and it has 'ngStyle' input, then verify that it is part of this module.
 2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-2 <router-outlet (contextmenu)="__elementSelectionService.select('121442744',$event)" [ngStyle]="__elementSelectionService.getStyles('121442744')"(click)='__elementSelectionService.clear()'></router-outlet>
-                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 <router-outlet (contextmenu)="__elementSelectionService.select('1133118670',$event)" [ngStyle]="__elementSelectionService.getStyles('1133118670')"(click)='__elementSelectionService.clear()'></router-outlet>
+                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/app.component.ts:7:16
     7   templateUrl: './app.component.html',
@@ -298,22 +298,10 @@ Error: .design/app/app.component.html:2:85 - error NG8002: Can't bind to 'ngStyl
     Error occurs in the template of component AppComponent.
 
 
-Error: .design/app/app.module.ts:25:17 - error NG1010: Value at position 0 in the NgModule.declarations of AppModule is not a reference
-  Value could not be determined statically.
+Error: .design/app/contact/contact.component.html:1:91 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-25   declarations: [,AppComponent,HeaderComponent],
-                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/app.module.ts:25:18
-    25   declarations: [,AppComponent,HeaderComponent],
-                        
-    This syntax is not supported.
-
-
-Error: .design/app/contact/contact.component.html:1:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
-
-1 <div class="bg-img" (contextmenu)="__elementSelectionService.select('407073399',$event)" [ngStyle]="__elementSelectionService.getStyles('407073399')"(click)='__elementSelectionService.clear()'>
-                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 <div class="bg-img" (contextmenu)="__elementSelectionService.select('1135103831',$event)" [ngStyle]="__elementSelectionService.getStyles('1135103831')"(click)='__elementSelectionService.clear()'>
+                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -321,10 +309,10 @@ Error: .design/app/contact/contact.component.html:1:90 - error NG8002: Can't bin
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:10:84 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+Error: .design/app/contact/contact.component.html:10:83 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-10           <p (contextmenu)="__elementSelectionService.select('1480552150',$event)" [ngStyle]="__elementSelectionService.getStyles('1480552150')">
-                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+10           <p (contextmenu)="__elementSelectionService.select('837137917',$event)" [ngStyle]="__elementSelectionService.getStyles('837137917')">
+                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -334,7 +322,7 @@ Error: .design/app/contact/contact.component.html:10:84 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:11:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-11             <br (contextmenu)="__elementSelectionService.select('879929287',$event)" [ngStyle]="__elementSelectionService.getStyles('879929287')">
+11             <br (contextmenu)="__elementSelectionService.select('142682192',$event)" [ngStyle]="__elementSelectionService.getStyles('142682192')">
                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -343,10 +331,10 @@ Error: .design/app/contact/contact.component.html:11:86 - error NG8002: Can't bi
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:12:85 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+Error: .design/app/contact/contact.component.html:12:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-12             <br (contextmenu)="__elementSelectionService.select('11962254',$event)" [ngStyle]="__elementSelectionService.getStyles('11962254')">
-                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+12             <br (contextmenu)="__elementSelectionService.select('976550029',$event)" [ngStyle]="__elementSelectionService.getStyles('976550029')">
+                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -356,7 +344,7 @@ Error: .design/app/contact/contact.component.html:12:85 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:14:87 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-14             <br (contextmenu)="__elementSelectionService.select('1526327892',$event)" [ngStyle]="__elementSelectionService.getStyles('1526327892')">
+14             <br (contextmenu)="__elementSelectionService.select('1195428383',$event)" [ngStyle]="__elementSelectionService.getStyles('1195428383')">
                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -367,7 +355,7 @@ Error: .design/app/contact/contact.component.html:14:87 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:16:87 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-16             <br (contextmenu)="__elementSelectionService.select('2039703043',$event)" [ngStyle]="__elementSelectionService.getStyles('2039703043')">
+16             <br (contextmenu)="__elementSelectionService.select('1528223063',$event)" [ngStyle]="__elementSelectionService.getStyles('1528223063')">
                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -378,10 +366,10 @@ Error: .design/app/contact/contact.component.html:16:87 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:17:87 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-17             <br (contextmenu)="__elementSelectionService.select('1484696169',$event)" [ngStyle]="__elementSelectionService.getStyles('1484696169')">
+17             <br (contextmenu)="__elementSelectionService.select('1515501005',$event)" [ngStyle]="__elementSelectionService.getStyles('1515501005')">
                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  .design/app/contact/contact.component.ts:7:16
+  .design/app/contact/contact.component.ts:[93m7:16
     7   templateUrl: './contact.component.html',
                      ~~~~~~~~~~~~~~~~~~~~~~~~~~
     Error occurs in the template of component ContactComponent.
@@ -389,7 +377,7 @@ Error: .design/app/contact/contact.component.html:17:87 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:18:203 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-18             <a href="https://www.facebook.com/Moln%C3%A1r-Ingatlanfot%C3%B3z%C3%A1s-288799308480175/" class="fa fa-facebook-square" (contextmenu)="__elementSelectionService.select('1824578591',$event)" [ngStyle]="__elementSelectionService.getStyles('1824578591')"> </a>
+18             <a href="https://www.facebook.com/Moln%C3%A1r-Ingatlanfot%C3%B3z%C3%A1s-288799308480175/" class="fa fa-facebook-square" (contextmenu)="__elementSelectionService.select('1194970778',$event)" [ngStyle]="__elementSelectionService.getStyles('1194970778')"> </a>
                                                                                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -398,10 +386,10 @@ Error: .design/app/contact/contact.component.html:18:203 - error NG8002: Can't b
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:19:87 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+Error: .design/app/contact/contact.component.html:19:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-19             <br (contextmenu)="__elementSelectionService.select('2038313113',$event)" [ngStyle]="__elementSelectionService.getStyles('2038313113')">
-                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19             <br (contextmenu)="__elementSelectionService.select('107537488',$event)" [ngStyle]="__elementSelectionService.getStyles('107537488')">
+                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -411,7 +399,7 @@ Error: .design/app/contact/contact.component.html:19:87 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:2:126 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
 
-2   <img src="../../assets/tothegith/seged/IMG_4569.jpg" (contextmenu)="__elementSelectionService.select('1790439974',$event)" [ngStyle]="__elementSelectionService.getStyles('1790439974')">
+2   <img src="../../assets/tothegith/seged/IMG_4569.jpg" (contextmenu)="__elementSelectionService.select('1119170706',$event)" [ngStyle]="__elementSelectionService.getStyles('1119170706')">
                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -420,10 +408,10 @@ Error: .design/app/contact/contact.component.html:2:126 - error NG8002: Can't bi
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:20:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
+Error: .design/app/contact/contact.component.html:20:87 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-20             <br (contextmenu)="__elementSelectionService.select('465560267',$event)" [ngStyle]="__elementSelectionService.getStyles('465560267')">
-                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20             <br (contextmenu)="__elementSelectionService.select('1798911399',$event)" [ngStyle]="__elementSelectionService.getStyles('1798911399')">
+                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -433,7 +421,7 @@ Error: .design/app/contact/contact.component.html:20:86 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:22:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-22             <br (contextmenu)="__elementSelectionService.select('910110263',$event)" [ngStyle]="__elementSelectionService.getStyles('910110263')">
+22             <br (contextmenu)="__elementSelectionService.select('347869136',$event)" [ngStyle]="__elementSelectionService.getStyles('347869136')">
                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -444,7 +432,7 @@ Error: .design/app/contact/contact.component.html:22:86 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:3:104 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('1776608717',$event)" [ngStyle]="__elementSelectionService.getStyles('1776608717')">
+3   <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('1130765668',$event)" [ngStyle]="__elementSelectionService.getStyles('1130765668')">
                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -453,21 +441,10 @@ Error: .design/app/contact/contact.component.html:3:104 - error NG8002: Can't bi
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:4:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/contact/contact.component.html:4:80 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-4     <div (contextmenu)="__elementSelectionService.select('1411307',$event)" [ngStyle]="__elementSelectionService.getStyles('1411307')">
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/contact/contact.component.ts:7:16
-    7   templateUrl: './contact.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component ContactComponent.
-
-
-Error: .design/app/contact/contact.component.html[0m:5:102 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
-
-5         <h3 class="styledTitle" (contextmenu)="__elementSelectionService.select('630055551',$event)" [ngStyle]="__elementSelectionService.getStyles('630055551')">
-                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4     <div (contextmenu)="__elementSelectionService.select('1580646481',$event)" [ngStyle]="__elementSelectionService.getStyles('1580646481')">
+                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -475,10 +452,21 @@ Error: .design/app/contact/contact.component.html[0m:5:102 - error NG8002: Can'
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:6:86 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/contact/contact.component.html:5:103 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
 
-6           <div (contextmenu)="__elementSelectionService.select('1887306282',$event)" [ngStyle]="__elementSelectionService.getStyles('1887306282')"></div>
-                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5         <h3 class="styledTitle" (contextmenu)="__elementSelectionService.select('2114962119',$event)" [ngStyle]="__elementSelectionService.getStyles('2114962119')">
+                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/contact/contact.component.ts:7:16
+    7   templateUrl: './contact.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ContactComponent.
+
+
+Error: .design/app/contact/contact.component.html:6:85 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+
+6           <div (contextmenu)="__elementSelectionService.select('366304308',$event)" [ngStyle]="__elementSelectionService.getStyles('366304308')"></div>
+                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -488,7 +476,7 @@ Error: .design/app/contact/contact.component.html:6:86 - error NG8002: Can't bin
 
 Error: .design/app/contact/contact.component.html:8:100 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-8         <div class="contact" (contextmenu)="__elementSelectionService.select('1048206181',$event)" [ngStyle]="__elementSelectionService.getStyles('1048206181')"><br (contextmenu)="__elementSelectionService.select('310697617',$event)" [ngStyle]="__elementSelectionService.getStyles('310697617')">
+8         <div class="contact" (contextmenu)="__elementSelectionService.select('1714159319',$event)" [ngStyle]="__elementSelectionService.getStyles('1714159319')"><br (contextmenu)="__elementSelectionService.select('251108875',$event)" [ngStyle]="__elementSelectionService.getStyles('251108875')">
                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -499,7 +487,7 @@ Error: .design/app/contact/contact.component.html:8:100 - error NG8002: Can't bi
 
 Error: .design/app/contact/contact.component.html:8:235 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'br'.
 
-8         <div class="contact" (contextmenu)="__elementSelectionService.select('1048206181',$event)" [ngStyle]="__elementSelectionService.getStyles('1048206181')"><br (contextmenu)="__elementSelectionService.select('310697617',$event)" [ngStyle]="__elementSelectionService.getStyles('310697617')">
+8         <div class="contact" (contextmenu)="__elementSelectionService.select('1714159319',$event)" [ngStyle]="__elementSelectionService.getStyles('1714159319')"><br (contextmenu)="__elementSelectionService.select('251108875',$event)" [ngStyle]="__elementSelectionService.getStyles('251108875')">
                                                                                                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
@@ -508,10 +496,10 @@ Error: .design/app/contact/contact.component.html:8:235 - error NG8002: Can't bi
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/contact/contact.component.html:9:85 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
+Error: .design/app/contact/contact.component.html:9:84 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h5'.
 
-9           <h5 (contextmenu)="__elementSelectionService.select('1481656484',$event)" [ngStyle]="__elementSelectionService.getStyles('1481656484')">Az al&#225;bbi el&#233;rhet&#337;s&#233;geimen v&#225;rom sz&#237;ves megkeres&#233;s&#233;t:</h5>
-[7m                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9           <h5 (contextmenu)="__elementSelectionService.select('250510568',$event)" [ngStyle]="__elementSelectionService.getStyles('250510568')">Az al&#225;bbi el&#233;rhet&#337;s&#233;geimen v&#225;rom sz&#237;ves megkeres&#233;s&#233;t:</h5>
+                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/contact/contact.component.ts:7:16
     7   templateUrl: './contact.component.html',
@@ -519,10 +507,10 @@ Error: .design/app/contact/contact.component.html:9:85 - error NG8002: Can't bin
     Error occurs in the template of component ContactComponent.
 
 
-Error: .design/app/gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component.html:1:72 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
+Error: .design/app/gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component.html:1:73 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-1 <p (contextmenu)="__elementSelectionService.select('44595834',$event)" [ngStyle]="__elementSelectionService.getStyles('44595834')"(click)='__elementSelectionService.clear()'>ceges-kepek works!</p>
-                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 <p (contextmenu)="__elementSelectionService.select('972985233',$event)" [ngStyle]="__elementSelectionService.getStyles('972985233')"(click)='__elementSelectionService.clear()'>ceges-kepek works!</p>
+                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component.ts:7:16
     7   templateUrl: './ceges-kepek.component.html',
@@ -532,7 +520,7 @@ Error: .design/app/gallery-page/gallery-ceges/ceges-kepek/ceges-kepek.component.
 
 Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:1:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div (contextmenu)="__elementSelectionService.select('336519401',$event)" [ngStyle]="__elementSelectionService.getStyles('336519401')"(click)='__elementSelectionService.clear()'>
+1 <div (contextmenu)="__elementSelectionService.select('753436919',$event)" [ngStyle]="__elementSelectionService.getStyles('753436919')"(click)='__elementSelectionService.clear()'>
                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
@@ -541,10 +529,10 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:1:75 
     Error occurs in the template of component GalleryCegesComponent.
 
 
-Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:2:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:2:105 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('1269631748',$event)" [ngStyle]="__elementSelectionService.getStyles('1269631748')"></div>
-                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('28804185',$event)" [ngStyle]="__elementSelectionService.getStyles('28804185')"></div>
+                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
     7   templateUrl: './gallery-ceges.component.html',
@@ -554,7 +542,7 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:2:107
 
 Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:3:173 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div style="font-style: italic; opacity: 0.4; font-size: larger;  padding: 7px; text-align: center" (contextmenu)="__elementSelectionService.select('1920103748',$event)" [ngStyle]="__elementSelectionService.getStyles('1920103748')">C&#233;ges fot&#243;z&#225;son k&#233;sz&#252;lt k&#233;pek</div>
+3   <div style="font-style: italic; opacity: 0.4; font-size: larger;  padding: 7px; text-align: center" (contextmenu)="__elementSelectionService.select('1384392210',$event)" [ngStyle]="__elementSelectionService.getStyles('1384392210')">C&#233;ges fot&#243;z&#225;son k&#233;sz&#252;lt k&#233;pek</div>
                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
@@ -565,7 +553,7 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:3:173
 
 Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:4:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-4   <div (contextmenu)="__elementSelectionService.select('255753798',$event)" [ngStyle]="__elementSelectionService.getStyles('255753798')"></div>
+4   <div (contextmenu)="__elementSelectionService.select('221229893',$event)" [ngStyle]="__elementSelectionService.getStyles('221229893')"></div>
                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
@@ -576,7 +564,7 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:4:77 
 
 Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:6:99 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('1626022324',$event)" [ngStyle]="__elementSelectionService.getStyles('1626022324')"(click)='__elementSelectionService.clear()'>
+6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('1521560111',$event)" [ngStyle]="__elementSelectionService.getStyles('1521560111')"(click)='__elementSelectionService.clear()'>
                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
@@ -589,8 +577,8 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:7:3 -
 1. If 'app-ceges-kepek' is an Angular component, then verify that it is part of this module.
 2. If 'app-ceges-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-7   <app-ceges-kepek (contextmenu)="__elementSelectionService.select('1154142410',$event)" [ngStyle]="__elementSelectionService.getStyles('1154142410')"></app-ceges-kepek>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-ceges-kepek (contextmenu)="__elementSelectionService.select('107616474',$event)" [ngStyle]="__elementSelectionService.getStyles('107616474')"></app-ceges-kepek>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
     7   templateUrl: './gallery-ceges.component.html',
@@ -598,13 +586,13 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:7:3 -
     Error occurs in the template of component GalleryCegesComponent.
 
 
-Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:7:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-ceges-kepek'.
+Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:7:89 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-ceges-kepek'.
 1. If 'app-ceges-kepek' is an Angular component and it has 'ngStyle' input, then verify that it is part of this module.
 2. If 'app-ceges-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-7   <app-ceges-kepek (contextmenu)="__elementSelectionService.select('1154142410',$event)" [ngStyle]="__elementSelectionService.getStyles('1154142410')"></app-ceges-kepek>
-                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-ceges-kepek (contextmenu)="__elementSelectionService.select('107616474',$event)" [ngStyle]="__elementSelectionService.getStyles('107616474')"></app-ceges-kepek>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ceges/gallery-ceges.component.ts:7:16
     7   templateUrl: './gallery-ceges.component.html',
@@ -614,7 +602,7 @@ Error: .design/app/gallery-page/gallery-ceges/gallery-ceges.component.html:7:90 
 
 Error: .design/app/gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component.html:1:73 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'p'.
 
-1 <p (contextmenu)="__elementSelectionService.select('228574925',$event)" [ngStyle]="__elementSelectionService.getStyles('228574925')"(click)='__elementSelectionService.clear()'>egyeb-kepek works!</p>
+1 <p (contextmenu)="__elementSelectionService.select('463504603',$event)" [ngStyle]="__elementSelectionService.getStyles('463504603')"(click)='__elementSelectionService.clear()'>egyeb-kepek works!</p>
                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component.ts:7:16
@@ -623,21 +611,10 @@ Error: .design/app/gallery-page/gallery-egyeb/egyeb-kepek/egyeb-kepek.component.
     Error occurs in the template of component EgyebKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:1:89 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:1:88 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div class="tipus" (contextmenu)="__elementSelectionService.select('778793233',$event)" [ngStyle]="__elementSelectionService.getStyles('778793233')"(click)='__elementSelectionService.clear()'>
-                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
-    7   templateUrl: './gallery-egyeb.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component GalleryEgyebComponent.
-
-
-Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:2:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
-
-2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('1372983534',$event)" [ngStyle]="__elementSelectionService.getStyles('1372983534')"></div>
-                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 <div class="tipus" (contextmenu)="__elementSelectionService.select('87027947',$event)" [ngStyle]="__elementSelectionService.getStyles('87027947')"(click)='__elementSelectionService.clear()'>
+                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
     7   templateUrl: './gallery-egyeb.component.html',
@@ -645,10 +622,10 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:2:107
     Error occurs in the template of component GalleryEgyebComponent.
 
 
-Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:3:171 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:2:106 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div style="font-style: italic; opacity: 0.4; font-size: larger;  padding: 7px; text-align: center" (contextmenu)="__elementSelectionService.select('10712908',$event)" [ngStyle]="__elementSelectionService.getStyles('10712908')">Egy&#233;b fot&#243;z&#225;son k&#233;sz&#252;lt k&#233;pek</div>
-                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('800596916',$event)" [ngStyle]="__elementSelectionService.getStyles('800596916')"></div>
+                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
     7   templateUrl: './gallery-egyeb.component.html',
@@ -656,10 +633,21 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:3:171
     Error occurs in the template of component GalleryEgyebComponent.
 
 
-Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:4:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:3:173 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-4   <div (contextmenu)="__elementSelectionService.select('551238882',$event)" [ngStyle]="__elementSelectionService.getStyles('551238882')"></div>
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3   <div style="font-style: italic; opacity: 0.4; font-size: larger;  padding: 7px; text-align: center" (contextmenu)="__elementSelectionService.select('1184688536',$event)" [ngStyle]="__elementSelectionService.getStyles('1184688536')">Egy&#233;b fot&#243;z&#225;son k&#233;sz&#252;lt k&#233;pek</div>
+                                                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
+    7   templateUrl: './gallery-egyeb.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component GalleryEgyebComponent.
+
+
+Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:4:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+
+4   <div (contextmenu)="__elementSelectionService.select('1073209430',$event)" [ngStyle]="__elementSelectionService.getStyles('1073209430')"></div>
+                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
     7   templateUrl: './gallery-egyeb.component.html',
@@ -669,7 +657,7 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:4:77 
 
 Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:6:98 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('120242641',$event)" [ngStyle]="__elementSelectionService.getStyles('120242641')"(click)='__elementSelectionService.clear()'>
+6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('932956889',$event)" [ngStyle]="__elementSelectionService.getStyles('932956889')"(click)='__elementSelectionService.clear()'>
                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
@@ -682,8 +670,8 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:7:3 -
 1. If 'app-egyeb-kepek' is an Angular component, then verify that it is part of this module.
 2. If 'app-egyeb-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-7   <app-egyeb-kepek (contextmenu)="__elementSelectionService.select('1160635168',$event)" [ngStyle]="__elementSelectionService.getStyles('1160635168')"></app-egyeb-kepek>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-egyeb-kepek (contextmenu)="__elementSelectionService.select('747113906',$event)" [ngStyle]="__elementSelectionService.getStyles('747113906')"></app-egyeb-kepek>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
     7   templateUrl: './gallery-egyeb.component.html',
@@ -691,13 +679,13 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:7:3 -
     Error occurs in the template of component GalleryEgyebComponent.
 
 
-Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:7:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-egyeb-kepek'.
+Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:7:89 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-egyeb-kepek'.
 1. If 'app-egyeb-kepek' is an Angular component and it has 'ngStyle' input, then verify that it is part of this module.
 2. If 'app-egyeb-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-7   <app-egyeb-kepek (contextmenu)="__elementSelectionService.select('1160635168',$event)" [ngStyle]="__elementSelectionService.getStyles('1160635168')"></app-egyeb-kepek>
-                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-egyeb-kepek (contextmenu)="__elementSelectionService.select('747113906',$event)" [ngStyle]="__elementSelectionService.getStyles('747113906')"></app-egyeb-kepek>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.ts:7:16
     7   templateUrl: './gallery-egyeb.component.html',
@@ -707,7 +695,7 @@ Error: .design/app/gallery-page/gallery-egyeb/gallery-egyeb.component.html:7:90 
 
 Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:1:90 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div class="tipus" (contextmenu)="__elementSelectionService.select('1951666461',$event)" [ngStyle]="__elementSelectionService.getStyles('1951666461')"(click)='__elementSelectionService.clear()'>
+1 <div class="tipus" (contextmenu)="__elementSelectionService.select('1682019914',$event)" [ngStyle]="__elementSelectionService.getStyles('1682019914')"(click)='__elementSelectionService.clear()'>
                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
@@ -716,10 +704,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
     Error occurs in the template of component GalleryIngatlanokComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:2:105 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:2:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('67125554',$event)" [ngStyle]="__elementSelectionService.getStyles('67125554')"></div>
-                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2   <div style="padding-bottom: 7px;" (contextmenu)="__elementSelectionService.select('1350561623',$event)" [ngStyle]="__elementSelectionService.getStyles('1350561623')"></div>
+                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
     8   templateUrl: './gallery-ingatlanok.component.html',
@@ -729,7 +717,7 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
 
 Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:3:119 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div style="font-size: larger;  padding: 7px" (contextmenu)="__elementSelectionService.select('1819072134',$event)" [ngStyle]="__elementSelectionService.getStyles('1819072134')"></div>
+3   <div style="font-size: larger;  padding: 7px" (contextmenu)="__elementSelectionService.select('1042629299',$event)" [ngStyle]="__elementSelectionService.getStyles('1042629299')"></div>
                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
@@ -738,10 +726,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
     Error occurs in the template of component GalleryIngatlanokComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:4:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:4:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-4   <div (contextmenu)="__elementSelectionService.select('916674553',$event)" [ngStyle]="__elementSelectionService.getStyles('916674553')"></div>
-                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4   <div (contextmenu)="__elementSelectionService.select('1091893364',$event)" [ngStyle]="__elementSelectionService.getStyles('1091893364')"></div>
+                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
     8   templateUrl: './gallery-ingatlanok.component.html',
@@ -749,10 +737,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
     Error occurs in the template of component GalleryIngatlanokComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:6:97 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:6:98 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('90028855',$event)" [ngStyle]="__elementSelectionService.getStyles('90028855')"(click)='__elementSelectionService.clear()'>
-                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6 <div class="grid-container" (contextmenu)="__elementSelectionService.select('271565672',$event)" [ngStyle]="__elementSelectionService.getStyles('271565672')"(click)='__elementSelectionService.clear()'>
+                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
     8   templateUrl: './gallery-ingatlanok.component.html',
@@ -764,8 +752,8 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
 1. If 'app-ingatlan-kepek' is an Angular component, then verify that it is part of this module.
 2. If 'app-ingatlan-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-7   <app-ingatlan-kepek (contextmenu)="__elementSelectionService.select('2045959840',$event)" [ngStyle]="__elementSelectionService.getStyles('2045959840')"></app-ingatlan-kepek>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-ingatlan-kepek (contextmenu)="__elementSelectionService.select('267891148',$event)" [ngStyle]="__elementSelectionService.getStyles('267891148')"></app-ingatlan-kepek>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
     8   templateUrl: './gallery-ingatlanok.component.html',
@@ -773,13 +761,13 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
     Error occurs in the template of component GalleryIngatlanokComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:7:93 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-ingatlan-kepek'.
+Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.html:7:92 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'app-ingatlan-kepek'.
 1. If 'app-ingatlan-kepek' is an Angular component and it has 'ngStyle' input, then verify that it is part of this module.
 2. If 'app-ingatlan-kepek' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-7   <app-ingatlan-kepek (contextmenu)="__elementSelectionService.select('2045959840',$event)" [ngStyle]="__elementSelectionService.getStyles('2045959840')"></app-ingatlan-kepek>
-                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   <app-ingatlan-kepek (contextmenu)="__elementSelectionService.select('267891148',$event)" [ngStyle]="__elementSelectionService.getStyles('267891148')"></app-ingatlan-kepek>
+                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.ts:8:16
     8   templateUrl: './gallery-ingatlanok.component.html',
@@ -787,10 +775,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/gallery-ingatlanok.component.
     Error occurs in the template of component GalleryIngatlanokComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:1:94 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:1:93 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div class="container" (contextmenu)="__elementSelectionService.select('1826467916',$event)" [ngStyle]="__elementSelectionService.getStyles('1826467916')"(click)='__elementSelectionService.clear()'>
-                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 <div class="container" (contextmenu)="__elementSelectionService.select('779773000',$event)" [ngStyle]="__elementSelectionService.getStyles('779773000')"(click)='__elementSelectionService.clear()'>
+                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -800,7 +788,7 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
 
 Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:11:139 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-11 <div class="modal fade" id="modalKepek" tabindex="-1" role="dialog" (contextmenu)="__elementSelectionService.select('1341252107',$event)" [ngStyle]="__elementSelectionService.getStyles('1341252107')"(click)='__elementSelectionService.clear()'>
+11 <div class="modal fade" id="modalKepek" tabindex="-1" role="dialog" (contextmenu)="__elementSelectionService.select('1871866809',$event)" [ngStyle]="__elementSelectionService.getStyles('1871866809')"(click)='__elementSelectionService.clear()'>
                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
@@ -809,21 +797,21 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:12:136 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:12:137 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-12   <div class="modal-dialog modal-dialog-centered" role="document" (contextmenu)="__elementSelectionService.select('852776759',$event)" [ngStyle]="__elementSelectionService.getStyles('852776759')">
-                                                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+12   <div class="modal-dialog modal-dialog-centered" role="document" (contextmenu)="__elementSelectionService.select('1236335084',$event)" [ngStyle]="__elementSelectionService.getStyles('1236335084')">
+                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
+  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:m9:16
     9   templateUrl: './ingatlan-kepek.component.html',
                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:13:102 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:13:101 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-13     <div class="modal-content" (contextmenu)="__elementSelectionService.select('1058065505',$event)" [ngStyle]="__elementSelectionService.getStyles('1058065505')">
-                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13     <div class="modal-content" (contextmenu)="__elementSelectionService.select('606212942',$event)" [ngStyle]="__elementSelectionService.getStyles('606212942')">
+                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -833,18 +821,18 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
 
 Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:14:100 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-14       <div class="modal-body" (contextmenu)="__elementSelectionService.select('747867137',$event)" [ngStyle]="__elementSelectionService.getStyles('747867137')">
+14       <div class="modal-body" (contextmenu)="__elementSelectionService.select('781420033',$event)" [ngStyle]="__elementSelectionService.getStyles('781420033')">
                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
     Error occurs in the template of component IngatlanKepekComponent.
 
 
 Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:15:184 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-15         <div id="lightbox" class="carousel slide" data-ride="carousel" data-interval="5000" data-keyboard="true" (contextmenu)="__elementSelectionService.select('1300112073',$event)" [ngStyle]="__elementSelectionService.getStyles('1300112073')">
+15         <div id="lightbox" class="carousel slide" data-ride="carousel" data-interval="5000" data-keyboard="true" (contextmenu)="__elementSelectionService.select('1326477837',$event)" [ngStyle]="__elementSelectionService.getStyles('1326477837')">
                                                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
@@ -853,10 +841,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:16:109 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:16:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-16           <div class="carousel-inner" (contextmenu)="__elementSelectionService.select('1568913854',$event)" [ngStyle]="__elementSelectionService.getStyles('1568913854')">
-                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+16           <div class="carousel-inner" (contextmenu)="__elementSelectionService.select('18980250',$event)" [ngStyle]="__elementSelectionService.getStyles('18980250')">
+                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -866,7 +854,7 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
 
 Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:2:98 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-2   <div class="row gallery" (contextmenu)="__elementSelectionService.select('1623273837',$event)" [ngStyle]="__elementSelectionService.getStyles('1623273837')">
+2   <div class="row gallery" (contextmenu)="__elementSelectionService.select('1034865971',$event)" [ngStyle]="__elementSelectionService.getStyles('1034865971')">
                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
@@ -877,7 +865,7 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
 
 Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:21:149 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1751021205',$event)" [ngStyle]="__elementSelectionService.getStyles('1751021205')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('676363369',$event)" [ngStyle]="__elementSelectionService.getStyles('676363369')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('77119637',$event)" [ngStyle]="__elementSelectionService.getStyles('77119637')">Previous</span></a>
+21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1274079049',$event)" [ngStyle]="__elementSelectionService.getStyles('1274079049')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('1177579232',$event)" [ngStyle]="__elementSelectionService.getStyles('1177579232')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('435560811',$event)" [ngStyle]="__elementSelectionService.getStyles('435560811')">Previous</span></a>
                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
@@ -886,21 +874,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:21:341 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:21:342 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
 
-21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1751021205',$event)" [ngStyle]="__elementSelectionService.getStyles('1751021205')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('676363369',$event)" [ngStyle]="__elementSelectionService.getStyles('676363369')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('77119637',$event)" [ngStyle]="__elementSelectionService.getStyles('77119637')">Previous</span></a>
-                                                                                                                                                                                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
-    9   templateUrl: './ingatlan-kepek.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component IngatlanKepekComponent.
-
-
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:21:499 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
-
-21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1751021205',$event)" [ngStyle]="__elementSelectionService.getStyles('1751021205')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('676363369',$event)" [ngStyle]="__elementSelectionService.getStyles('676363369')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('77119637',$event)" [ngStyle]="__elementSelectionService.getStyles('77119637')">Previous</span></a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1274079049',$event)" [ngStyle]="__elementSelectionService.getStyles('1274079049')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('1177579232',$event)" [ngStyle]="__elementSelectionService.getStyles('1177579232')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('435560811',$event)" [ngStyle]="__elementSelectionService.getStyles('435560811')">Previous</span></a>
+                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -908,21 +885,10 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:157 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:21:502 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
 
-22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('56686967',$event)" [ngStyle]="__elementSelectionService.getStyles('56686967')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('403819856',$event)" [ngStyle]="__elementSelectionService.getStyles('403819856')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('856250639',$event)" [ngStyle]="__elementSelectionService.getStyles('856250639')">Next</span></a>
-                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
-    9   templateUrl: './ingatlan-kepek.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component IngatlanKepekComponent.
-
-
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:354 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
-
-22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('56686967',$event)" [ngStyle]="__elementSelectionService.getStyles('56686967')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('403819856',$event)" [ngStyle]="__elementSelectionService.getStyles('403819856')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('856250639',$event)" [ngStyle]="__elementSelectionService.getStyles('856250639')">Next</span></a>
-                                                                                                                                                                                                                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21           <a class="carousel-control-prev" href="#lightbox" data-slide="prev" (contextmenu)="__elementSelectionService.select('1274079049',$event)" [ngStyle]="__elementSelectionService.getStyles('1274079049')"><span class="carousel-control-prev-icon" aria-hidden="false" (contextmenu)="__elementSelectionService.select('1177579232',$event)" [ngStyle]="__elementSelectionService.getStyles('1177579232')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('435560811',$event)" [ngStyle]="__elementSelectionService.getStyles('435560811')">Previous</span></a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -930,10 +896,32 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
     Error occurs in the template of component IngatlanKepekComponent.
 
 
-Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:513 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:159 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('56686967',$event)" [ngStyle]="__elementSelectionService.getStyles('56686967')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('403819856',$event)" [ngStyle]="__elementSelectionService.getStyles('403819856')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('856250639',$event)" [ngStyle]="__elementSelectionService.getStyles('856250639')">Next</span></a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('2101597913',$event)" [ngStyle]="__elementSelectionService.getStyles('2101597913')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('826653847',$event)" [ngStyle]="__elementSelectionService.getStyles('826653847')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('1959232305',$event)" [ngStyle]="__elementSelectionService.getStyles('1959232305')">Next</span></a>
+                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
+    9   templateUrl: './ingatlan-kepek.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component IngatlanKepekComponent.
+
+
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:358 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
+
+22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('2101597913',$event)" [ngStyle]="__elementSelectionService.getStyles('2101597913')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('826653847',$event)" [ngStyle]="__elementSelectionService.getStyles('826653847')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('1959232305',$event)" [ngStyle]="__elementSelectionService.getStyles('1959232305')">Next</span></a>
+[7m                                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
+    9   templateUrl: './ingatlan-kepek.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component IngatlanKepekComponent.
+
+
+Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.html:22:518 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'span'.
+
+22           <a class="carousel-control-next" href="#lightbox" data-slide="next" autofocus (contextmenu)="__elementSelectionService.select('2101597913',$event)" [ngStyle]="__elementSelectionService.getStyles('2101597913')"><span class="carousel-control-next-icon active" aria-hidden="false" (contextmenu)="__elementSelectionService.select('826653847',$event)" [ngStyle]="__elementSelectionService.getStyles('826653847')"></span><span class="sr-only" (contextmenu)="__elementSelectionService.select('1959232305',$event)" [ngStyle]="__elementSelectionService.getStyles('1959232305')">Next</span></a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek.component.ts:9:16
     9   templateUrl: './ingatlan-kepek.component.html',
@@ -943,7 +931,7 @@ Error: .design/app/gallery-page/gallery-ingatlanok/ingatlan-kepek/ingatlan-kepek
 
 Error: .design/app/gallery-page/gallery-page.component.html:1:102 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-1 <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('1367248345',$event)" [ngStyle]="__elementSelectionService.getStyles('1367248345')"(click)='__elementSelectionService.clear()'>
+1 <div class="styledDoubleLines" (contextmenu)="__elementSelectionService.select('1128757439',$event)" [ngStyle]="__elementSelectionService.getStyles('1128757439')"(click)='__elementSelectionService.clear()'>
                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
@@ -952,21 +940,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:1:102 - error NG8002
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:10:135 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
+Error: .design/app/gallery-page/gallery-page.component.html:10:136 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
 
-10           <img src="../../assets/tothegith/seged/ingatlanok.jpg" (contextmenu)="__elementSelectionService.select('138980452',$event)" [ngStyle]="__elementSelectionService.getStyles('138980452')">
-                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  .design/app/gallery-page/gallery-page.component.ts:7:16
-    7   templateUrl: './gallery-page.component.html',
-                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component GalleryPageComponent.
-
-
-Error: .design/app/gallery-page/gallery-page.component.html:13:97 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
-
-13       <div class="col-sm" (contextmenu)="__elementSelectionService.select('1232981066',$event)" [ngStyle]="__elementSelectionService.getStyles('1232981066')">
-                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+10           <img src="../../assets/tothegith/seged/ingatlanok.jpg" (contextmenu)="__elementSelectionService.select('1337313623',$event)" [ngStyle]="__elementSelectionService.getStyles('1337313623')">
+                                                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -974,10 +951,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:13:97 - error NG8002
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:14:108 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
+Error: .design/app/gallery-page/gallery-page.component.html:13:96 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-14         <a routerLink="/kepek/ceges" (contextmenu)="__elementSelectionService.select('1350801943',$event)" [ngStyle]="__elementSelectionService.getStyles('1350801943')">
-                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13       <div class="col-sm" (contextmenu)="__elementSelectionService.select('843744671',$event)" [ngStyle]="__elementSelectionService.getStyles('843744671')">
+                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -985,10 +962,21 @@ Error: .design/app/gallery-page/gallery-page.component.html:14:108 - error NG800
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:16:143 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
+Error: .design/app/gallery-page/gallery-page.component.html:14:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-16           <img src="../../assets/tothegith/seged/work_cover1080x675.jpg" (contextmenu)="__elementSelectionService.select('765855922',$event)" [ngStyle]="__elementSelectionService.getStyles('765855922')">
-                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14         <a routerLink="/kepek/ceges" (contextmenu)="__elementSelectionService.select('481970220',$event)" [ngStyle]="__elementSelectionService.getStyles('481970220')">
+                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  .design/app/gallery-page/gallery-page.component.ts:7:16
+    7   templateUrl: './gallery-page.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component GalleryPageComponent.
+
+
+Error: .design/app/gallery-page/gallery-page.component.html:16:144 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
+
+16           <img src="../../assets/tothegith/seged/work_cover1080x675.jpg" (contextmenu)="__elementSelectionService.select('1374628237',$event)" [ngStyle]="__elementSelectionService.getStyles('1374628237')">
+                                                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -998,7 +986,7 @@ Error: .design/app/gallery-page/gallery-page.component.html:16:143 - error NG800
 
 Error: .design/app/gallery-page/gallery-page.component.html:2:78 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-2   <div (contextmenu)="__elementSelectionService.select('1343848284',$event)" [ngStyle]="__elementSelectionService.getStyles('1343848284')">
+2   <div (contextmenu)="__elementSelectionService.select('1895564437',$event)" [ngStyle]="__elementSelectionService.getStyles('1895564437')">
                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
@@ -1007,10 +995,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:2:78 - error NG8002:
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:20:108 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
+Error: .design/app/gallery-page/gallery-page.component.html:20:107 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-20         <a routerLink="/kepek/egyeb" (contextmenu)="__elementSelectionService.select('1614854894',$event)" [ngStyle]="__elementSelectionService.getStyles('1614854894')">
-                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20         <a routerLink="/kepek/egyeb" (contextmenu)="__elementSelectionService.select('812756374',$event)" [ngStyle]="__elementSelectionService.getStyles('812756374')">
+                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -1020,7 +1008,7 @@ Error: .design/app/gallery-page/gallery-page.component.html:20:108 - error NG800
 
 Error: .design/app/gallery-page/gallery-page.component.html:22:137 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'img'.
 
-22           <img src="../../assets/tothegith/seged/wedding-290.jpg" (contextmenu)="__elementSelectionService.select('1207448880',$event)" [ngStyle]="__elementSelectionService.getStyles('1207448880')">
+22           <img src="../../assets/tothegith/seged/wedding-290.jpg" (contextmenu)="__elementSelectionService.select('1450291322',$event)" [ngStyle]="__elementSelectionService.getStyles('1450291322')">
                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
@@ -1029,10 +1017,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:22:137 - error NG800
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:3:103 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/gallery-page/gallery-page.component.html:3:102 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3     <div class="grid-container" (contextmenu)="__elementSelectionService.select('1974218947',$event)" [ngStyle]="__elementSelectionService.getStyles('1974218947')">
-                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3     <div class="grid-container" (contextmenu)="__elementSelectionService.select('143001781',$event)" [ngStyle]="__elementSelectionService.getStyles('143001781')">
+                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -1040,10 +1028,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:3:103 - error NG8002
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:4:100 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
+Error: .design/app/gallery-page/gallery-page.component.html:4:101 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
 
-4       <h3 class="styledTitle" (contextmenu)="__elementSelectionService.select('341033435',$event)" [ngStyle]="__elementSelectionService.getStyles('341033435')">Gall&#233;ria
-                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4       <h3 class="styledTitle" (contextmenu)="__elementSelectionService.select('1317242335',$event)" [ngStyle]="__elementSelectionService.getStyles('1317242335')">Gall&#233;ria
+                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -1053,7 +1041,7 @@ Error: .design/app/gallery-page/gallery-page.component.html:4:100 - error NG8002
 
 Error: .design/app/gallery-page/gallery-page.component.html:5:83 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-5         <div (contextmenu)="__elementSelectionService.select('223974818',$event)" [ngStyle]="__elementSelectionService.getStyles('223974818')"></div>
+5         <div (contextmenu)="__elementSelectionService.select('905518953',$event)" [ngStyle]="__elementSelectionService.getStyles('905518953')"></div>
                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
@@ -1064,7 +1052,7 @@ Error: .design/app/gallery-page/gallery-page.component.html:5:83 - error NG8002:
 
 Error: .design/app/gallery-page/gallery-page.component.html:7:93 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-7       <div class="col" (contextmenu)="__elementSelectionService.select('379709642',$event)" [ngStyle]="__elementSelectionService.getStyles('379709642')">
+7       <div class="col" (contextmenu)="__elementSelectionService.select('632385007',$event)" [ngStyle]="__elementSelectionService.getStyles('632385007')">
                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
@@ -1073,10 +1061,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:7:93 - error NG8002:
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/gallery-page/gallery-page.component.html:8:111 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
+Error: .design/app/gallery-page/gallery-page.component.html:8:112 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'a'.
 
-8         <a routerLink="/kepek/ingatlanok" (contextmenu)="__elementSelectionService.select('44034293',$event)" [ngStyle]="__elementSelectionService.getStyles('44034293')">
-                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8         <a routerLink="/kepek/ingatlanok" (contextmenu)="__elementSelectionService.select('499784268',$event)" [ngStyle]="__elementSelectionService.getStyles('499784268')">
+                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/gallery-page/gallery-page.component.ts:7:16
     7   templateUrl: './gallery-page.component.html',
@@ -1084,10 +1072,10 @@ Error: .design/app/gallery-page/gallery-page.component.html:8:111 - error NG8002
     Error occurs in the template of component GalleryPageComponent.
 
 
-Error: .design/app/main-page/main-page.component.html:15:109 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/main-page/main-page.component.html:15:110 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-15 <div style="margin: 70px 10% 30px 10%" (contextmenu)="__elementSelectionService.select('288235368',$event)" [ngStyle]="__elementSelectionService.getStyles('288235368')"(click)='__elementSelectionService.clear()'>
-                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15 <div style="margin: 70px 10% 30px 10%" (contextmenu)="__elementSelectionService.select('1131631121',$event)" [ngStyle]="__elementSelectionService.getStyles('1131631121')"(click)='__elementSelectionService.clear()'>
+                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
     8   templateUrl: './main-page.component.html',
@@ -1097,7 +1085,7 @@ Error: .design/app/main-page/main-page.component.html:15:109 - error NG8002: Can
 
 Error: .design/app/main-page/main-page.component.html:16:77 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-16   <div (contextmenu)="__elementSelectionService.select('572183839',$event)" [ngStyle]="__elementSelectionService.getStyles('572183839')">
+16   <div (contextmenu)="__elementSelectionService.select('671922092',$event)" [ngStyle]="__elementSelectionService.getStyles('671922092')">
                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1106,21 +1094,21 @@ Error: .design/app/main-page/main-page.component.html:16:77 - error NG8002: Can'
     Error occurs in the template of component MainPageComponent.
 
 
-Error: .design/app/main-page/main-page.component.html:17:80 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/main-page/main-page.component.html:17:79 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-17     <div (contextmenu)="__elementSelectionService.select('1842123368',$event)" [ngStyle]="__elementSelectionService.getStyles('1842123368')"></div>
-                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17     <div (contextmenu)="__elementSelectionService.select('157582476',$event)" [ngStyle]="__elementSelectionService.getStyles('157582476')"></div>
+                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  .design/app/main-page/main-page.component.ts:8:16
+  .design/app/main-page/main-page.component.ts:8:[93m16
     8   templateUrl: './main-page.component.html',
                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Error occurs in the template of component MainPageComponent.
 
 
-Error: .design/app/main-page/main-page.component.html:18:103 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/main-page/main-page.component.html:18:102 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-18     <div class="grid-container" (contextmenu)="__elementSelectionService.select('1875596207',$event)" [ngStyle]="__elementSelectionService.getStyles('1875596207')">
-                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+18     <div class="grid-container" (contextmenu)="__elementSelectionService.select('627994867',$event)" [ngStyle]="__elementSelectionService.getStyles('627994867')">
+                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
     8   templateUrl: './main-page.component.html',
@@ -1132,7 +1120,7 @@ Error: .design/app/main-page/main-page.component.html:19:7 - error NG8001: 'app-
 1. If 'app-main' is an Angular component, then verify that it is part of this module.
 2. If 'app-main' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-19       <app-main (contextmenu)="__elementSelectionService.select('2089702446',$event)" [ngStyle]="__elementSelectionService.getStyles('2089702446')"></app-main>
+19       <app-main (contextmenu)="__elementSelectionService.select('1179713643',$event)" [ngStyle]="__elementSelectionService.getStyles('1179713643')"></app-main>
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1146,7 +1134,7 @@ Error: .design/app/main-page/main-page.component.html:19:87 - error NG8002: Can'
 2. If 'app-main' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-19       <app-main (contextmenu)="__elementSelectionService.select('2089702446',$event)" [ngStyle]="__elementSelectionService.getStyles('2089702446')"></app-main>
+19       <app-main (contextmenu)="__elementSelectionService.select('1179713643',$event)" [ngStyle]="__elementSelectionService.getStyles('1179713643')"></app-main>
                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1155,10 +1143,10 @@ Error: .design/app/main-page/main-page.component.html:19:87 - error NG8002: Can'
     Error occurs in the template of component MainPageComponent.
 
 
-Error: .design/app/main-page/main-page.component.html:2:75 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
+Error: .design/app/main-page/main-page.component.html:2:74 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
 
-2 <h3 (contextmenu)="__elementSelectionService.select('1662114003',$event)" [ngStyle]="__elementSelectionService.getStyles('1662114003')"(click)='__elementSelectionService.clear()'>
-                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 <h3 (contextmenu)="__elementSelectionService.select('724159831',$event)" [ngStyle]="__elementSelectionService.getStyles('724159831')"(click)='__elementSelectionService.clear()'>
+                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
     8   templateUrl: './main-page.component.html',
@@ -1168,7 +1156,7 @@ Error: .design/app/main-page/main-page.component.html:2:75 - error NG8002: Can't
 
 Error: .design/app/main-page/main-page.component.html:3:104 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div style="padding-top: 30px" (contextmenu)="__elementSelectionService.select('1534733238',$event)" [ngStyle]="__elementSelectionService.getStyles('1534733238')"></div>
+3   <div style="padding-top: 30px" (contextmenu)="__elementSelectionService.select('1150135956',$event)" [ngStyle]="__elementSelectionService.getStyles('1150135956')"></div>
                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1177,10 +1165,10 @@ Error: .design/app/main-page/main-page.component.html:3:104 - error NG8002: Can'
     Error occurs in the template of component MainPageComponent.
 
 
-Error: .design/app/main-page/main-page.component.html:6:160 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
+Error: .design/app/main-page/main-page.component.html:6:162 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-6 <div class="container" style="box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.15); padding: 0px" (contextmenu)="__elementSelectionService.select('44939169',$event)" [ngStyle]="__elementSelectionService.getStyles('44939169')"(click)='__elementSelectionService.clear()'>
-                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6 <div class="container" style="box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.15); padding: 0px" (contextmenu)="__elementSelectionService.select('1290614761',$event)" [ngStyle]="__elementSelectionService.getStyles('1290614761')"(click)='__elementSelectionService.clear()'>
+                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
     8   templateUrl: './main-page.component.html',
@@ -1193,7 +1181,7 @@ Error: .design/app/main-page/main-page.component.html:7:167 - error NG8002: Can'
 2. If 'ngx-slick-carousel' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('986622702',$event)" [ngStyle]="__elementSelectionService.getStyles('986622702')">
+7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('490184654',$event)" [ngStyle]="__elementSelectionService.getStyles('490184654')">
                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1206,7 +1194,7 @@ Error: .design/app/main-page/main-page.component.html:7:3 - error NG8001: 'ngx-s
 1. If 'ngx-slick-carousel' is an Angular component, then verify that it is part of this module.
 2. If 'ngx-slick-carousel' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 
-7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('986622702',$event)" [ngStyle]="__elementSelectionService.getStyles('986622702')">
+7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('490184654',$event)" [ngStyle]="__elementSelectionService.getStyles('490184654')">
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1217,7 +1205,7 @@ Error: .design/app/main-page/main-page.component.html:7:3 - error NG8001: 'ngx-s
 
 Error: .design/app/main-page/main-page.component.html:7:59 - error NG8003: No directive found with exportAs 'slick-carousel'.
 
-7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('986622702',$event)" [ngStyle]="__elementSelectionService.getStyles('986622702')">
+7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('490184654',$event)" [ngStyle]="__elementSelectionService.getStyles('490184654')">
                                                             ~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1231,7 +1219,7 @@ Error: .design/app/main-page/main-page.component.html:7:75 - error NG8002: Can't
 2. If 'ngx-slick-carousel' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
 3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
 
-7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('986622702',$event)" [ngStyle]="__elementSelectionService.getStyles('986622702')">
+7   <ngx-slick-carousel class="carousel" style #slickModal="slick-carousel" [config]="slideConfig" (contextmenu)="__elementSelectionService.select('490184654',$event)" [ngStyle]="__elementSelectionService.getStyles('490184654')">
                                                                             ~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main-page.component.ts:8:16
@@ -1240,10 +1228,10 @@ Error: .design/app/main-page/main-page.component.html:7:75 - error NG8002: Can't
     Error occurs in the template of component MainPageComponent.
 
 
-Error: .design/app/main-page/main/main.component.html:2:137 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
+Error: .design/app/main-page/main/main.component.html:2:138 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'h3'.
 
-2     font-weight: 400;font-size: 1.25rem;margin: 10px 0px 25px 0px" (contextmenu)="__elementSelectionService.select('813472955',$event)" [ngStyle]="__elementSelectionService.getStyles('813472955')"(click)='__elementSelectionService.clear()'>
-                                                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2     font-weight: 400;font-size: 1.25rem;margin: 10px 0px 25px 0px" (contextmenu)="__elementSelectionService.select('1585122906',$event)" [ngStyle]="__elementSelectionService.getStyles('1585122906')"(click)='__elementSelectionService.clear()'>
+                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main/main.component.ts:7:16
     7   templateUrl: './main.component.html',
@@ -1253,7 +1241,7 @@ Error: .design/app/main-page/main/main.component.html:2:137 - error NG8002: Can'
 
 Error: .design/app/main-page/main/main.component.html:3:104 - error NG8002: Can't bind to 'ngStyle' since it isn't a known property of 'div'.
 
-3   <div style="padding-top: 30px;" (contextmenu)="__elementSelectionService.select('687889389',$event)" [ngStyle]="__elementSelectionService.getStyles('687889389')"></div>
+3   <div style="padding-top: 30px;" (contextmenu)="__elementSelectionService.select('771710892',$event)" [ngStyle]="__elementSelectionService.getStyles('771710892')"></div>
                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   .design/app/main-page/main/main.component.ts:7:16
@@ -1266,3 +1254,4 @@ Error: .design/app/main-page/main/main.component.html:3:104 - error NG8002: Can'
 
 ** Angular Live Development Server is listening on localhost:5678, open your browser on http://localhost:5678/ **
 
+- Generating browser application bundles...
